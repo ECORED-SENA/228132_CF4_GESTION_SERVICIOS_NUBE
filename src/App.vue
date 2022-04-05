@@ -28,4 +28,11 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.banner-interno
+  height: 175px
+.banner-interno__fondo
+  background-image: url(assets/curso/portada/img-fontdo-tema.png) !important
+  background-position: initial !important
+  height: 220px
+</style>

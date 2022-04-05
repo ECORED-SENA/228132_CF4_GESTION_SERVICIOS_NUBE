@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Diseño y documentación de propuesta para servicios en la nube',
+    descripcionCurso:
+      'Este componente proporciona la información necesaria para conformar una propuesta de implementación de servicios en la nube, de acuerdo a los requerimientos de los sistemas de información de las organizaciones y las buenas prácticas parta garantizar la disponibilidad, confidencialidad e integridad de la información.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -22,14 +24,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Estrategias de migración',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Concepto',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Tipos y características',
+            hash: 't_1_2',
           },
         ],
       },
@@ -38,14 +46,42 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Contratación',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Concepto',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Tipos de contrato',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Proveedores de servicio en la nube',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Comunicación',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Proyectos de TI',
         desarrolloContenidos: true,
       },
     ],
@@ -99,7 +135,7 @@ export default {
       tipo: 'tipo',
       descarga: '/downloads/prueba.pdf',
     },
-  ],  
+  ],
   glosario: [
     {
       termino: 'Término',
@@ -109,7 +145,7 @@ export default {
       termino: '<em>Término</em>',
       significado: 'Definición',
     },
-  ],  
+  ],
   referencias: [
     {
       referencia:
