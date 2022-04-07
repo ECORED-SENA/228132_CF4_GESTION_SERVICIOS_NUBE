@@ -80,9 +80,8 @@
               p.w-100.fw-bold.mb-0 La misma estrategia de negocio
     .col-12.col-md-8.mb-5(style="background: linear-gradient(180deg, #039BE5, #027FBC); margin-top: -26px")
       p.mb-0.p-2.fw-bold(style="font-size: 18px; color: white;") En el siguiente recurso didáctico podremos ampliar la información sobre cada una de esas 6Rs: 
-
-    .row.mb-5
-      .col-12.col-md-7.mb-5.mb-md-0
+    .row.mb-5(style="position: relative; z-index: 1;")
+      .col-12.col-md-7.mb-5.mb-md-0.order-2.order-md-1
         LineaTiempoD.color-acento-contenido.acordeon-t-1
           .container-acordeon-vertical(numero="1" titulo="<em>(R)ehosting</em>")
             p.mb-3 Refiere a la estrategia de <em>lift-and-shift</em>, en donde se trasladan las aplicaciones a la nube sin rediseño de ningún tipo (a veces de forma literal), podría decirse que como una copia <em>bit a bit</em>. 
@@ -105,14 +104,14 @@
           .container-acordeon-vertical(numero="6" titulo="<em>(R)etain</em>")
             p En realidad es una no migración, es decir, es una decisión consciente de no migrar una aplicación a la nube.
             img(src="@/assets/curso/temas/tema1/img-acordeon-6.svg" style="max-width: 553px").px-2.mx-auto
-      .col-12.col-md-5
+      .col-12.col-md-5.order-1.order-md-2.mb-5
         img(src="@/assets/curso/temas/tema1/img-7.png")
-    
-    .d-flex.mb-5
+    img(src="@/assets/curso/temas/tema1/bg-4.svg" style="position: absolute; margin-left: -3rem; margin-right: -3rem; z-index: 0; bottom: 700px").d-none.d-md-flex
+    .d-flex.mb-5(style="position: relative; z-index: 1;")
       img(src="@/assets/curso/temas/tema1/decorador-4.svg" style="max-width: 44px").mx-4
       p.fw-bold.mb-0(style="color: #1565C0") Con el fin de llevar a cabo una mayor precisión del concepto, así como un breve resumen de las 6Rs, se presenta la siguiente tabla, la cual incorpora las características de cada una de estas, veamos:
 
-    .col-12.px-4
+    .col-12.px-4(style="position: relative; z-index: 1;")
       .titulo-sexto.color-acento-contenido
         h5 Tabla 1
         span <em>Estrategias de migración</em>
@@ -129,6 +128,21 @@
           tr
             th.fw-normal Re-Plataforma
             td Estrategia que implica análisis de negocio para identificación de procesos y servicios que puedan ser excluidos de la migración, requiere un conocimiento de la arquitectura originaria y procesos para la toma de decisiones.
+          tr
+            th.fw-normal <em>Re-compra</em>
+            td Estrategia asociada a la recompra de versiones <em>SaaS</em> de una aplicación utilizada por la organización, por ejemplo:  <em>Microsoft Exchange</em> migrar a <em>Office 365</em> obteniendo las funcionalidades y beneficios de un producto novedoso y seguro. <br><br>Este modelo requiere de una importante justificación para ser presentado ante la alta dirección, ya que es común escuchar que no se debe comprar algo con lo que ya se cuenta, de ahí la importancia de presentar los beneficios y bondades de la nueva adquisición. 
+          tr
+            th.fw-normal <em>Re-diseño</em>
+            td Estrategia de mayor complejidad y de mayor costo ya que implica re arquitecturizar sistemas de información y procesos, buscando aprovechar los beneficios de la tecnología Cloud. Considera que puede requerir diseñar la infraestructura desde cero, pero esto se puede ver beneficiado con una optimización de recursos, y evitar gastos innecesarios en la operación de la infraestructura <em>cloud</em>.
+          tr
+            th.fw-normal <em>Retención</em>
+            td Esta estrategia considera la posibilidad de no tener que migrar hacia la nube toda una infraestructura. Ya sea por costos, restricciones de licenciamiento o compatibilidad. Para este caso, se conserva la aplicación o algún componente de la misma en el entorno original, identificando que, en algunas ocasiones, no todo puede ser llevado hacia la nube.
+          tr
+            th.fw-normal <em>Retirada </em>
+            td Busca retirar de la arquitectura cloud, aquellos componentes que ya no se utilizan y que generan carga o costo operativo.
+
+
+
 </template>
 
 <script>
@@ -191,7 +205,7 @@ export default {
   display: flex
   flex-wrap: wrap
   justify-content: center
-  align-content: start
+  align-content: flex-start
   text-align: center
   height: 100%
   p
