@@ -97,7 +97,81 @@
     Separador
 
     .titulo-segundo.color-acento-contenido.mb-5
-        h2#t_2_1 2.1 Concepto
+      h2#t_2_1 2.1 Concepto
+    
+    .d-flex.flex-wrap.px-5.pe-md-0.mb-5(
+      :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-4.svg')})`}"
+      style="background-repeat: no-repeat; background-position: bottom; margin-left: -3rem; margin-right: -3rem;"
+    )
+      img(src="@/assets/curso/temas/tema2/img-5.png" style="max-width: 469px; max-height: 495px").col-12.col-md-5.mb-5.mb-md-auto
+      .col-12.col-md-7
+        .col-12.col-md-11.mx-auto
+          .bloque-texto-c.color-secundario.p-4.bg-gradient-1
+            img(src="@/assets/curso/temas/tema2/decorador-bg-1.svg")
+            p Se define contratación como <b>“Pacto o convenio, oral o escrito, entre partes que se obligan sobre materia o cosa determinada, y a cuyo cumplimiento pueden ser compelidas”</b>.
+            span Según la RAE (Real Academia Española)
+        .col-12
+          .cajon.color-primario.p-4.mb-4.edit-cajon-2
+            p La contratación de servicios de <em>cloud computing</em> se lleva a cabo mediante un contrato de prestación de servicios, que se define como el contrato mediante el cual una persona, normalmente un especialista, en algún área, se obliga con respecto a otra a realizar una serie de servicios a cambio de un precio. Es importante señalar que el pago del contrato está dirigido al cumplimiento de metas, horas, objetivos, proyectos, etc. Se trata de un contrato oneroso, y a la contraprestación de pago, es en dinero o especie la cual será pagada proporcionalmente conforme a las actividades realizadas.
+
+    p.mb-5 Un contrato oneroso, se define como un tipo de contrato en que ambas partes tienen obligaciones y ventajas económicas recíprocas. Entre los más comunes están: el de compraventa, arrendamiento, sociedad, permuta, transporte y el contrato de trabajo.
+    img(src="@/assets/curso/temas/tema2/bg-5.svg" style="position: absolute; margin-left: -3rem; margin-right: -3rem; z-index: 0")
+    .d-flex.flex-wrap(style="position: relative; z-index: 1;")
+      .col-6.col-md-4.col-xl-2.px-2.mb-4
+        .container-card-12.p-4
+          img(src="@/assets/curso/temas/tema2/img-card-12-1.svg" style="max-width: 72px").mx-auto.mb-3
+          p.mb-0.text-center Compraventa
+      .col-6.col-md-4.col-xl-2.px-2.mb-4
+        .container-card-12.p-4
+          img(src="@/assets/curso/temas/tema2/img-card-12-2.svg" style="max-width: 72px").mx-auto.mb-3
+          p.mb-0.text-center Compraventa
+      .col-6.col-md-4.col-xl-2.px-2.mb-4
+        .container-card-12.p-4
+          img(src="@/assets/curso/temas/tema2/img-card-12-3.svg" style="max-width: 72px").mx-auto.mb-3
+          p.mb-0.text-center Compraventa
+      .col-6.col-md-4.col-xl-2.px-2.mb-4
+        .container-card-12.p-4
+          img(src="@/assets/curso/temas/tema2/img-card-12-4.svg" style="max-width: 72px").mx-auto.mb-3
+          p.mb-0.text-center Compraventa
+      .col-6.col-md-4.col-xl-2.px-2.mb-4
+        .container-card-12.p-4
+          img(src="@/assets/curso/temas/tema2/img-card-12-5.svg" style="max-width: 72px").mx-auto.mb-3
+          p.mb-0.text-center Compraventa
+      .col-6.col-md-4.col-xl-2.px-2.mb-4
+        .container-card-12.p-4
+          img(src="@/assets/curso/temas/tema2/img-card-12-6.svg" style="max-width: 72px").mx-auto.mb-3
+          p.mb-0.text-center Compraventa
+
+    Separador(style="position: relative; z-index: 1;")
+
+    .titulo-segundo.color-acento-contenido.mb-5(style="position: relative; z-index: 1;")
+      h2#t_2_2 2.2 Tipos de contrato
+
+    p.mb-5(style="position: relative; z-index: 1;") Como se indicaba anteriormente,<span style="color: #1565C0; font-weight: bold"> la contratación de servicios de <em>cloud computing</em> se realizará por medio de un contrato de prestación de servicios</span>. Resulta imprescindible que ese contrato incorpore entre sus cláusulas las garantías a las que obliga la Ley de Protección de Datos.
+    .d-flex.flex-wrap.mb-5(style="position: relative; z-index: 1;")
+      .col-12.col-md-6.d-flex.pe-0.pe-md-2.mb-4.mb-md-0
+        .container-box-2-2
+          img(src="@/assets/curso/temas/tema2/img-6.svg" style="max-width: 331px").mb-5
+          p Ley 1581 de 2012, La presente ley tiene por objeto desarrollar el derecho constitucional que tienen todas las personas a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bases de datos o archivos, y los demás derechos, libertades y garantías constitucionales a que se refiere el artículo 15 de la Constitución Política; así como el derecho a la información consagrado en el artículo 20 de la misma.
+          img(src="@/assets/curso/temas/tema2/decorador-1.svg" style="max-width: 86px").ms-auto
+      .col-12.col-md-6.d-flex.ps-0.ps-md-2
+        .container-box-2-2.h-100
+          div
+            img(src="@/assets/curso/temas/tema2/img-6.svg" style="max-width: 331px").mb-5
+            p El Decreto tiene como objeto reglamentar parcialmente la Ley 1581 de 2012, por la cual se dictan disposiciones generales para la protección de datos personales.
+          img(src="@/assets/curso/temas/tema2/decorador-1.svg" style="max-width: 86px").ms-auto
+
+
+    .d-flex.flex-wrap.px-5(
+      :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-4.svg')})`}"
+      style="background-repeat: no-repeat; background-position: bottom; margin-left: -3rem; margin-right: -3rem;"
+    )
+      img(src="@/assets/curso/temas/tema2/img-8.png" style="max-width: 469px; max-height: 505px").col-12.col-md-5.mb-5.mb-md-auto
+      .col-12.col-md-7
+        .d-flex.mt-4.pt-3
+          img(src="@/assets/curso/temas/tema2/decorador-2.svg" style="max-width: 29px").mx-3.mb-5
+          p(style="color: #1565C0; font-weight: bold;") Atendiendo a la relación contractual establecida entre el cliente y el proveedor de la nube, también este contrato se puede clasificar como negociado o de adhesión. Podemos decir que un contrato entre el cliente y el proveedor es negociado si el primero tiene, o se le ofrece, la capacidad para fijar las condiciones de contratación en función del tipo de datos que se van a procesar, las medidas de seguridad exigibles, el esquema de subcontratación, la localización de los datos, la portabilidad de los mismos y cualquier otro aspecto de adecuación a la regulación organizacional y a las restricciones que esta regulación implica.
+        p.texto-final-decorador En la mayoría de los casos, sin embargo, lo que se oferta son contratos de adhesión, constituidos por cláusulas contractuales cerradas, en las que <span style="color: #2EC49F; font-weight: bold;">el proveedor de cloud fija las condiciones con un contrato tipo igual para todos sus clientes, sin que el usuario tenga ninguna opción para negociar sus términos</span>. Este último caso es el más común, sobre todo cuando se encuentra el cliente en una situación de desequilibrio <span style="font-weight: bold;">(p.ej.: una pyme frente a un gran proveedor)</span>, aunque hay que tener en cuenta que esto no eximirá, a ninguno de los dos, de las responsabilidades que determina la ley de protección de datos.
 </template>
 
 <script>
@@ -157,4 +231,52 @@ export default {
     align-items: stretch !important
     .slyder-f__slyde
       margin-bottom: 2rem !important
+.bg-gradient-1
+  background: linear-gradient(170deg, #039BE5, #027FBC)
+  border-radius: 15px
+  position: relative
+  padding-top: 65px !important
+  margin-bottom: 3rem
+  box-shadow: 0 3px 6px #00000030
+  img
+    max-width: 73px
+    position: absolute
+    top: -15px
+  p
+    margin-bottom: 0
+    color: white
+  span
+    position: relative
+    margin-left: auto
+    display: flex
+    justify-content: flex-end
+    padding-right: 3rem
+    bottom: -1.7rem
+    color: white
+    font-weight: bold
+.edit-cajon-2
+  background-color: #FFECB1 !important
+  &.cajon.color-primario:before
+    background-color: #FFCA28
+.container-card-12
+  background-color: white
+  box-shadow: 0 3px 6px #00000030
+  border-radius: 10px
+.container-box-2-2
+  background: linear-gradient(-15deg, #2EC49F, #2B3990)
+  padding: 2rem
+  border-radius: 10px
+  display: flex
+  flex-wrap: wrap
+  align-content: space-between
+  p
+    color: white
+.texto-final-decorador
+  background-color: white
+  box-shadow: 0 3px 6px #00000030
+  padding: 1rem 2rem
+  margin-left: -6rem
+  @media (max-width: 768px)
+    margin-left: 0
+    margin-right: 0
 </style>

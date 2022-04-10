@@ -34,7 +34,7 @@
           img(src="@/assets/curso/temas/tema1/img-2.png" style="max-width: 373px").mx-auto
     
       .titulo-sexto.color-acento-contenido.col-12.col-md-11.mx-auto
-        h5 Figura 1.
+        h5 <em>Figura 1.</em>
         span Las 6 Rs de AWS para migración a la nube
       img(src="@/assets/curso/temas/tema1/img-3.svg").col-12.col-md-11.mx-auto.mb-5
 
@@ -48,7 +48,7 @@
       .col-12.col-md-8.col-lg-6.mx-auto.mb-5
         .titulo-sexto.color-acento-contenido.col-12.mx-auto
           h5 Figura 2.
-          span Estrategias de migración
+          span <em>Estrategias de migración</em>
         img(src="@/assets/curso/temas/tema1/img-5.svg")
 
       .titulo-segundo.color-acento-contenido.mb-5

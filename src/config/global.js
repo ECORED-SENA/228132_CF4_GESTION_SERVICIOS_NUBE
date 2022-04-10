@@ -126,32 +126,80 @@ export default {
   },
   complementario: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
+      texto: 'Tipos de contratos',
+      tipo: 'PDF',
+      link:
+        'https://www.mintic.gov.co/arquitecturati/630/articles-9011_documento.pdf',
     },
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
+      texto: 'Contratación',
+      tipo: 'PDF',
+      link:
+        'http://www.oas.org/es/sla/ddi/docs/Gu%C3%ADa%20para%20clientes%20que%20contraten%20servicios%20de%20Cloud%20Computing%20-%20AGPD.pdf',
+    },
+    {
+      texto: 'Contratación',
+      tipo: 'PDF',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=49981',
+    },
+    {
+      texto: 'Proveedores de servicios en la nube',
+      tipo: 'Página web',
+      link: 'https://comparecloud.in/',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Comunicación',
+      significado:
+        'La comunicación consciente consiste en la transmisión y recepción de datos entre dos o más actores con el fin de transmitir o recibir mensajes u opiniones distintas.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: 'Contratación',
+      significado:
+        'Según la RAE (Real Academia Española) define contratación como “Pacto o convenio, oral o escrito, entre partes que se obligan sobre materia o cosa determinada, y a cuyo cumplimiento pueden ser compelidas”.',
+    },
+    {
+      termino: '<em>Cloud Computing</em>',
+      significado:
+        'La computación en la nube, conocida también como servicios en la nube, consiste en el uso de una red de servidores remotos alojados en Internet para almacenar, administrar y procesar datos e información, en lugar de un servidor local o una computadora personal.',
+    },
+    {
+      termino: 'Migración',
+      significado:
+        'En tecnología, consiste en el desplazamiento del software, aplicaciones o sistemas de información de una infraestructura tecnológica a otra, por ejemplo, la migración de una aplicación de un servidor local a un servidor en la nube.',
+    },
+    {
+      termino: 'Proveedor',
+      significado: 'Sujeto o entidad que suministra un producto o servicios.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Allcode.com (2021). <em>10 Top Cloud Providers in 2021.</em>',
+      link: 'https://allcode.com/cloud-providers/',
+    },
+    {
+      referencia:
+        'Claranet.es (2021). 6 enfoques para afrontar la migración a la nube.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.claranet.es/blog/6-enfoques-para-afrontar-la-migracion-a-la-nube',
+    },
+    {
+      referencia: 'RAE - Real Academia Española (2021). Contratar.',
+      link: 'https://dle.rae.es/contratar',
+    },
+    {
+      referencia: 'SANTOS GARCÍA (2012).  Comunicación oral y escrita.',
+      link:
+        'http://190.57.147.202:90/jspui/bitstream/123456789/650/1/Comunicacion_oral_y_escrita.pdf',
+    },
+    {
+      referencia:
+        'SECRETARIA GENERAL DE LA ORGANIZACIÓN DE LOS ESTADOS AMERICANOS (1992). Honduras - Proyecto de Manejo de los Recursos Naturales Renovables de la Cuenca del Embalse el Cajón - Estudio de Factibilidad. Costos y financiamiento.',
+      link: 'https://www.oas.org/dsd/publications/Unit/oea15s/ch09.htm',
     },
   ],
   creditos: {
@@ -164,10 +212,61 @@ export default {
     ],
     contenidoInstruccional: [
       {
+        nombre: 'Pablo Cesar Pardo Ortiz',
+        cargo: 'Experto Temático',
+        centro:
+          'Regional Cauca, Centro de teleinformática y producción industrial',
+      },
+      {
+        nombre: 'Hernando José Peña Hidalgo',
+        cargo: 'Experto Temático',
+        centro:
+          'Regional Cauca, Centro de teleinformática y producción industrial',
+      },
+      {
+        nombre: 'José Luis Bastidas Pérez',
+        cargo: 'Experto Temático',
+        centro:
+          'Regional Cauca, Centro de teleinformática y producción industrial',
+      },
+      {
+        nombre: 'Joaquín Patiño Cerón',
+        cargo: 'Experto Temático',
+        centro:
+          'Regional Cauca, Centro de teleinformática y producción industrial',
+      },
+      {
+        nombre: 'Peter Emerson Pinchao Solís',
+        cargo: 'Experto Temático',
+        centro:
+          'Regional Cauca, Centro de teleinformática y producción industrial',
+      },
+      {
+        nombre: 'Henry Eduardo Bastidas Paruma',
+        cargo: 'Experto Temático',
+        centro:
+          'Regional Cauca, Centro de teleinformática y producción industrial',
+      },
+      {
+        nombre: 'María Inés Machado López',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Regional Distrito Capital. Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Metodóloga para la formación virtual',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+      },
+      {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Corrección de estilo',
+        centro: 'Regional Distrito Capital. Centro de Diseño y Metrología',
       },
     ],
     desarrolloProducto: [
