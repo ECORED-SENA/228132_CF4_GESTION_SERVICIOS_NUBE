@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Contratación
 
     .position-relative.mb-5
       img(src="@/assets/curso/temas/tema2/img-1.png").d-none.d-md-flex
@@ -112,7 +112,7 @@
             span Según la RAE (Real Academia Española)
         .col-12
           .cajon.color-primario.p-4.mb-4.edit-cajon-2
-            p La contratación de servicios de <em>cloud computing</em> se lleva a cabo mediante un contrato de prestación de servicios, que se define como el contrato mediante el cual una persona, normalmente un especialista, en algún área, se obliga con respecto a otra a realizar una serie de servicios a cambio de un precio. Es importante señalar que el pago del contrato está dirigido al cumplimiento de metas, horas, objetivos, proyectos, etc. Se trata de un contrato oneroso, y a la contraprestación de pago, es en dinero o especie la cual será pagada proporcionalmente conforme a las actividades realizadas.
+            p La contratación de servicios de <em><b>cloud computing</b></em> se lleva a cabo mediante un contrato de prestación de servicios, que se define como el contrato mediante el cual una persona, normalmente un especialista, en algún área, se obliga con respecto a otra a realizar una serie de servicios a cambio de un precio. <b>Es importante señalar que el pago del contrato está dirigido al cumplimiento de metas, horas, objetivos, proyectos, etc.</b> Se trata de un contrato oneroso, y a la contraprestación de pago, es en dinero o especie la cual será pagada proporcionalmente conforme a las actividades realizadas.
 
     p.mb-5 Un contrato oneroso, se define como un tipo de contrato en que ambas partes tienen obligaciones y ventajas económicas recíprocas. Entre los más comunes están: el de compraventa, arrendamiento, sociedad, permuta, transporte y el contrato de trabajo.
     img(src="@/assets/curso/temas/tema2/bg-5.svg" style="position: absolute; margin-left: -3rem; margin-right: -3rem; z-index: 0")
@@ -124,23 +124,23 @@
       .col-6.col-md-4.col-xl-2.px-2.mb-4
         .container-card-12.p-4
           img(src="@/assets/curso/temas/tema2/img-card-12-2.svg" style="max-width: 72px").mx-auto.mb-3
-          p.mb-0.text-center Compraventa
+          p.mb-0.text-center Arrendamiento
       .col-6.col-md-4.col-xl-2.px-2.mb-4
         .container-card-12.p-4
           img(src="@/assets/curso/temas/tema2/img-card-12-3.svg" style="max-width: 72px").mx-auto.mb-3
-          p.mb-0.text-center Compraventa
+          p.mb-0.text-center Sociedad
       .col-6.col-md-4.col-xl-2.px-2.mb-4
         .container-card-12.p-4
           img(src="@/assets/curso/temas/tema2/img-card-12-4.svg" style="max-width: 72px").mx-auto.mb-3
-          p.mb-0.text-center Compraventa
+          p.mb-0.text-center Permuta
       .col-6.col-md-4.col-xl-2.px-2.mb-4
         .container-card-12.p-4
           img(src="@/assets/curso/temas/tema2/img-card-12-5.svg" style="max-width: 72px").mx-auto.mb-3
-          p.mb-0.text-center Compraventa
+          p.mb-0.text-center Transporte
       .col-6.col-md-4.col-xl-2.px-2.mb-4
         .container-card-12.p-4
           img(src="@/assets/curso/temas/tema2/img-card-12-6.svg" style="max-width: 72px").mx-auto.mb-3
-          p.mb-0.text-center Compraventa
+          p.mb-0.text-center Contrato de trabajo
 
     Separador(style="position: relative; z-index: 1;")
 
@@ -151,25 +151,25 @@
     .d-flex.flex-wrap.mb-5(style="position: relative; z-index: 1;")
       .col-12.col-md-6.d-flex.pe-0.pe-md-2.mb-4.mb-md-0
         .container-box-2-2
-          img(src="@/assets/curso/temas/tema2/img-6.svg" style="max-width: 331px").mb-5
+          img(src="@/assets/curso/temas/tema2/img-6.svg" style="max-width: 331px; margin-top: 1.5rem").mb-5
           p Ley 1581 de 2012, La presente ley tiene por objeto desarrollar el derecho constitucional que tienen todas las personas a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bases de datos o archivos, y los demás derechos, libertades y garantías constitucionales a que se refiere el artículo 15 de la Constitución Política; así como el derecho a la información consagrado en el artículo 20 de la misma.
           img(src="@/assets/curso/temas/tema2/decorador-1.svg" style="max-width: 86px").ms-auto
       .col-12.col-md-6.d-flex.ps-0.ps-md-2
         .container-box-2-2.h-100
           div
-            img(src="@/assets/curso/temas/tema2/img-6.svg" style="max-width: 331px").mb-5
+            img(src="@/assets/curso/temas/tema2/img-7.svg" style="max-width: 331px; margin-top: 1.5rem").mb-5
             p El Decreto tiene como objeto reglamentar parcialmente la Ley 1581 de 2012, por la cual se dictan disposiciones generales para la protección de datos personales.
           img(src="@/assets/curso/temas/tema2/decorador-1.svg" style="max-width: 86px").ms-auto
 
 
-    .d-flex.flex-wrap.px-5(
+    .d-flex.flex-wrap.px-5.pe-md-0(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-4.svg')})`}"
       style="background-repeat: no-repeat; background-position: bottom; margin-left: -3rem; margin-right: -3rem;"
     )
       img(src="@/assets/curso/temas/tema2/img-8.png" style="max-width: 469px; max-height: 505px").col-12.col-md-5.mb-5.mb-md-auto
       .col-12.col-md-7
         .d-flex.mt-4.pt-3
-          img(src="@/assets/curso/temas/tema2/decorador-2.svg" style="max-width: 29px").mx-3.mb-5
+          img(src="@/assets/curso/temas/tema2/decorador-2.svg" style="max-width: 29px").mx-3.mb-5.mt-1
           p(style="color: #1565C0; font-weight: bold;") Atendiendo a la relación contractual establecida entre el cliente y el proveedor de la nube, también este contrato se puede clasificar como negociado o de adhesión. Podemos decir que un contrato entre el cliente y el proveedor es negociado si el primero tiene, o se le ofrece, la capacidad para fijar las condiciones de contratación en función del tipo de datos que se van a procesar, las medidas de seguridad exigibles, el esquema de subcontratación, la localización de los datos, la portabilidad de los mismos y cualquier otro aspecto de adecuación a la regulación organizacional y a las restricciones que esta regulación implica.
         p.texto-final-decorador En la mayoría de los casos, sin embargo, lo que se oferta son contratos de adhesión, constituidos por cláusulas contractuales cerradas, en las que <span style="color: #2EC49F; font-weight: bold;">el proveedor de cloud fija las condiciones con un contrato tipo igual para todos sus clientes, sin que el usuario tenga ninguna opción para negociar sus términos</span>. Este último caso es el más común, sobre todo cuando se encuentra el cliente en una situación de desequilibrio <span style="font-weight: bold;">(p.ej.: una pyme frente a un gran proveedor)</span>, aunque hay que tener en cuenta que esto no eximirá, a ninguno de los dos, de las responsabilidades que determina la ley de protección de datos.
 </template>

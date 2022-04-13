@@ -25,17 +25,17 @@
         h2#t_1_1 1.1 Concepto
       
       .d-flex.flex-wrap.align-items-center.mb-5
-        .col-12.col-md-8.me-auto.pe-0.pe-md-5
+        .col-12.col-md-8.me-auto.pe-0.pe-md-5.order-2.order-md-1
           p.mb-5 <b>Todo proyecto de implementación de servicios en la nube debe estar orientado o dirigido por una estrategia definida de migración</b> la cual varía según múltiples factores, por lo que no hay una única estrategia para una cartera de productos TI.
           .d-flex.ps-3.mb-5
             img(src="@/assets/curso/temas/tema1/decorador-2.svg" style="max-width: 41px")
             p.ps-3.fw-bold.mb-0(style="color: #1565C0") No obstante, una de las ventajas de la infraestructura <em>cloud</em> es permitir combinar servicios que consoliden las necesidades de la organización. En el <em>cloud computing</em> se suele utilizar la fórmula de ‘las 6 Rs’ para identificar distintas estrategias de migración a aplicar en función de las características del proyecto TI, como puede apreciarse en la figura que se encuentra a continuación.
-        .col-12.col-md-4
-          img(src="@/assets/curso/temas/tema1/img-2.png" style="max-width: 373px").mx-auto
+        .col-12.col-md-4.order-1.order-md-2.mb-4.mb-md-0
+          img(src="@/assets/curso/temas/tema1/img-2.svg" style="max-width: 373px").mx-auto
     
       .titulo-sexto.color-acento-contenido.col-12.col-md-11.mx-auto
-        h5 <em>Figura 1.</em>
-        span Las 6 Rs de AWS para migración a la nube
+        h5(style="font-size: 13px !important") <em>Figura 1.</em>
+        span(style="font-size: 13px !important") Las 6 Rs de AWS para migración a la nube
       img(src="@/assets/curso/temas/tema1/img-3.svg").col-12.col-md-11.mx-auto.mb-5
 
       .bloque-texto-a.color-secundario.p-4.p-md-3.mb-5.edit-bloque-texto-1
@@ -47,8 +47,8 @@
 
       .col-12.col-md-8.col-lg-6.mx-auto.mb-5
         .titulo-sexto.color-acento-contenido.col-12.mx-auto
-          h5 Figura 2.
-          span <em>Estrategias de migración</em>
+          h5(style="font-size: 13px !important") Figura 2.
+          span(style="font-size: 13px !important") <em>Estrategias de migración</em>
         img(src="@/assets/curso/temas/tema1/img-5.svg")
 
       .titulo-segundo.color-acento-contenido.mb-5
@@ -65,15 +65,15 @@
           .col-12.col-lg-6.col-xl-3.p-2
             .container-card
               img(src="@/assets/curso/temas/tema1/img-card-1.svg" style="max-width: 63px")
-              p.w-100.fw-bold.mb-0 El traslado
+              p.w-100.fw-bold.mb-0(style="line-height: 1") El traslado
           .col-12.col-lg-6.col-xl-3.p-2
             .container-card
               img(src="@/assets/curso/temas/tema1/img-card-2.svg" style="max-width: 63px")
-              p.w-100.fw-bold.mb-0 Las necesidades de la organización
+              p.w-100.fw-bold.mb-0(style="line-height: 1") Las necesidades de la organización
           .col-12.col-lg-6.col-xl-3.p-2
             .container-card
               img(src="@/assets/curso/temas/tema1/img-card-3.svg" style="max-width: 63px")
-              p.w-100.fw-bold.mb-0 El tiempo permitido o posible para llevarlo a cabo
+              p.w-100.fw-bold.mb-0(style="line-height: 1") El tiempo permitido o posible para llevarlo a cabo
           .col-12.col-lg-6.col-xl-3.p-2
             .container-card
               img(src="@/assets/curso/temas/tema1/img-card-4.svg" style="max-width: 63px")
@@ -113,8 +113,8 @@
 
     .col-12.px-4(style="position: relative; z-index: 1;")
       .titulo-sexto.color-acento-contenido
-        h5 Tabla 1
-        span <em>Estrategias de migración</em>
+        h5(style="font-size: 13px !important") Tabla 1
+        span(style="font-size: 13px !important") <em>Estrategias de migración</em>
       .tabla-b.color-acento-contenido.mb-5
         .tabla-b__header(style="background: linear-gradient(180deg, rgba(46,196,159,1) 0%, rgba(43,57,144,1) 100%); border-top: 4px solid black; height: 13px; padding: 0")
         table
@@ -210,10 +210,20 @@ export default {
   height: 100%
   p
     font-size: 15px
+    padding-right: .3rem
+    padding-left: .3rem
+    padding-bottom: .3rem
   img
     margin-top: 1rem
     margin-bottom: 1rem
 .acordeon-t-1
+  .linea-tiempo-d__item
+    .linea-tiempo-d__item__content__title
+      background-color: #E5E5E5
+      border-radius: 5px
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content__title
+      background-color: #F6F6F6
   .linea-tiempo-d__item__number
     span
       color: black

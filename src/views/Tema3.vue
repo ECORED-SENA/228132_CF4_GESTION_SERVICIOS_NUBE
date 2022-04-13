@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 Proveedores de servicio en la nube
 
     .d-flex.flex-wrap.px-5.ps-md-0(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-4.svg')})`}"
@@ -25,19 +25,19 @@
           .col-6.col-md-4.col-xl-2.px-1.mb-2
             .container-card-12.px-2.py-3
               img(src="@/assets/curso/temas/tema3/img-card-12-2.svg" style="max-width: 60px").mx-auto.mb-3
-              p.mb-0.text-center.fw-bold Información
+              p.mb-0.text-center.fw-bold Conexión
           .col-6.col-md-4.col-xl-2.px-1.mb-2
             .container-card-12.px-2.py-3
               img(src="@/assets/curso/temas/tema3/img-card-12-3.svg" style="max-width: 60px").mx-auto.mb-3
-              p.mb-0.text-center.fw-bold Información
+              p.mb-0.text-center.fw-bold Nube
           .col-6.col-md-4.col-xl-2.px-1.mb-2
             .container-card-12.px-2.py-3
               img(src="@/assets/curso/temas/tema3/img-card-12-4.svg" style="max-width: 60px").mx-auto.mb-3
-              p.mb-0.text-center.fw-bold Información
+              p.mb-0.text-center.fw-bold Seguridad
           .col-6.col-md-4.col-xl-2.px-1.mb-2
             .container-card-12.px-2.py-3
               img(src="@/assets/curso/temas/tema3/img-card-12-5.svg" style="max-width: 60px").mx-auto.mb-3
-              p.mb-0.text-center.fw-bold Información
+              p.mb-0.text-center.fw-bold Archivos
 
     img(src="@/assets/curso/temas/tema3/bg-1.svg" style="position: absolute; margin-left: -3rem; margin-right: -3rem; z-index: 0")
     .col-12.col-xl-11(style="position: relative; z-index: 1; background: linear-gradient(180deg, #039BE5, #027FBC); margin-top: -26px; margin-top: 2rem; margin-bottom: 1.5rem")

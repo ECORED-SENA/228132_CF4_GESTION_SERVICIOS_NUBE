@@ -13,11 +13,11 @@
         p.mb-0 <span style="color: #1565C0; font-weight: bold">La gestión de proyectos de tecnologías de la información y la comunicación - TI</span>, puede ser abordado desde diversos aspectos de la gestión empresarial según el contexto, pero en cualquiera de los casos, escenarios y/o contextos, para una adecuada administración de los proyectos de TI se deben considerar los siguientes aspectos.
     .col-12.col-xl-9.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
-        h5 Figura 3.
-        span <em>Aspectos contenidos en la administración de proyectos TI</em>
+        h5(style="font-size: 13px !important") Figura 3.
+        span(style="font-size: 13px !important") <em>Aspectos contenidos en la administración de proyectos TI</em>
       img(src="@/assets/curso/temas/tema5/img-1.svg")
-    .col-12.col-xl-7(style="position: relative; z-index: 1; background: linear-gradient(180deg, #039BE5, #027FBC); margin-top: -26px; margin-top: 2rem; margin-bottom: 1.5rem")
-      p.mb-0.p-2.fw-bold(style="font-size: 22px; color: white;") Fases (Planeación, Ejecución, Verificación y Mejora)
+    .col-12.col-xl-6(style="position: relative; z-index: 1; background: linear-gradient(180deg, #039BE5, #027FBC); margin-top: -26px; margin-top: 2rem; margin-bottom: 1.5rem")
+      p.mb-0.p-2.ps-3.fw-bold(style="font-size: 22px; color: white;") Fases (Planeación, Ejecución, Verificación y Mejora)
     
     p.mb-5 <b>Para la buena administración de los proyectos de TI</b>, es importante que se realice una estructuración por fases, teniendo en cuenta la planeación, ejecución, verificación y mejora de actividades del proyecto. <b>Las actividades del proyecto son las acciones que se deben realizar para lograr los objetivos del mismo</b>, estas deben ser planificadas y asignadas a los responsables de ejecución.
 
@@ -34,26 +34,26 @@
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema5/img-6.png' style="max-width: 324px")
-      .py-4.py-md-5(titulo="Planear" :icono="require('@/assets/curso/temas/tema5/img-3.svg')")
+      .py-4.py-md-5(titulo="Hacer" :icono="require('@/assets/curso/temas/tema5/img-3.svg')")
         .row.align-items-center
           .col-md-8.mb-4.mb-md-0
-            h4 Planear
-            p En esta fase se deben poner en marcha o ejecución las actividades de gestión y técnicas que se planearon por realizar. En los proyectos de TI, son aquellas actividades de instalación, implementación y/o apropiación de tecnologías <em>hardware</em> y <em>software</em>. También, pueden involucrar la adquisición de nuevos servicios de TI, como los servicios en la nube o aplicaciones de terceros.
+            h4 Hacer
+            p En esta fase se deben poner en marcha o ejecución las actividades de gestión y técnicas que se planearon por realizar. En los proyectos de TI, son aquellas actividades de instalación, implementación y/o apropiación de tecnologías hardware y software. También, pueden involucrar la adquisición de nuevos servicios de TI, como los servicios en la nube o aplicaciones de terceros.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema5/img-7.png' style="max-width: 324px")
-      .py-4.py-md-5(titulo="Planear" :icono="require('@/assets/curso/temas/tema5/img-4.svg')")
+      .py-4.py-md-5(titulo="Verificar" :icono="require('@/assets/curso/temas/tema5/img-4.svg')")
         .row.align-items-center
           .col-md-8.mb-4.mb-md-0
-            h4 Planear
-            p Es la primera fase o etapa donde se aborda el problema a resolver y se plantean los objetivos y alcances para solucionarlo. Asimismo, se designan las actividades para lograr los objetivos. Es esta fase también se deben considerar los recursos necesarios, humanos, económicos, tecnológicos y de información.En esta fase se deben poner en marcha o ejecución las actividades de gestión y técnicas que se planearon por realizar. En los proyectos de TI, son aquellas actividades de instalación, implementación y/o apropiación de tecnologías <em>hardware</em> y <em>software</em>. También, pueden involucrar la adquisición de nuevos servicios de TI, como los servicios en la nube o aplicaciones de terceros.
+            h4 Verificar
+            p Consiste en realizar una validación posterior después de un tiempo de haber realizado las implementaciones, con el fin de verificar que se hayan logrado las acciones tomadas de manera adecuada según lo planificado y los objetivos del proyecto.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema5/img-8.png' style="max-width: 324px")
-      .py-4.py-md-5(titulo="Planear" :icono="require('@/assets/curso/temas/tema5/img-5.svg')")
+      .py-4.py-md-5(titulo="Actuar" :icono="require('@/assets/curso/temas/tema5/img-5.svg')")
         .row.align-items-center
           .col-md-8.mb-4.mb-md-0
-            h4 Planear
+            h4 Actuar
             p En esta última fase se toman las acciones de mejora, con base en los resultados de verificación o evaluación, con el fin de demarcar las acciones correctivas para la mejora.
           .col-md-4
             figure
@@ -66,8 +66,8 @@
     .col-12(style="border-bottom: 1px solid #AFAFAF")
       .col-12.col-xl-9.mx-auto.position-relative.pb-5
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 2.
-          span <em>Cronograma de actividades de proyectos de TI</em>
+          h5(style="font-size: 13px !important") Tabla 2.
+          span(style="font-size: 13px !important") <em>Cronograma de actividades de proyectos de TI</em>
         .tabla-b.color-acento-contenido.mb-5
           .tabla-b__header(style="background: linear-gradient(180deg, rgba(46,196,159,1) 0%, rgba(43,57,144,1) 100%); border-top: 4px solid black; height: 13px; padding: 0")
           table(style="background-color: white")
@@ -183,8 +183,8 @@
       p.me-0.me-md-5.mb-0(style="color: #1565C0; font-weight: bold") En la gestión de proyectos de TI, y en especial en los proyectos de servicios en la nube, es importante la determinación de recursos necesarios, por lo que se deben considerar los siguientes criterios:
     
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 3.
-      span <em>Criterios en la gestión de proyectos TI</em>
+      h5(style="font-size: 13px !important") Tabla 3.
+      span(style="font-size: 13px !important") <em>Criterios en la gestión de proyectos TI</em>
     .tabla-b.color-acento-contenido.mb-5
       .tabla-b__header(style="background: linear-gradient(180deg, rgba(46,196,159,1) 0%, rgba(43,57,144,1) 100%); border-top: 4px solid black; height: 13px; padding: 0")
       table(style="background-color: white")
@@ -260,8 +260,8 @@
     .col-12.d-flex.flex-wrap
       img(src="@/assets/curso/temas/tema5/img-12.png" style="max-width: 505px;").img-offset-1.mb-auto.col-12.col-md-5
       .col-12.col-md-7.position-relative.pt-4
-        .container-texto-offset-1.my-5.p-0
-          .container-bg-doble.flex-wrap.flex-md-nowrap.mb-5.position-relative
+        .container-texto-offset-1.p-0(style="margin-top: 2.5rem")
+          .container-bg-doble-50.flex-wrap.flex-md-nowrap.position-relative.py-4
             img(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 104px; position: relative; z-index: 1;").me-4.mb-4.mb-md-0
             .container-p
               p.mb-0 La planeación de las actividades debe considerar también los siguientes atributos dentro de un cronograma de actividades:
@@ -316,14 +316,14 @@
         .d-flex.mb-5.pt-5
           img(src="@/assets/curso/temas/tema4/decorador-4.svg" style="max-width: 40px").mx-3.mx-md-4
           p.mb-0(style="color: #1565C0; font-weight: bold") Es importante que se validen los siguientes aspectos legales:
-        LineaTiempoD.color-acento-contenido
-          div(numero="1" titulo="Contexto jurídico.")
+        LineaTiempoD.color-acento-contenido.acordeon-t-5
+          div(numero="1" titulo="Contexto jurídico")
             p El contexto jurídico, según la constitución política, corresponde con las leyes, decretos, entre otros lineamientos estatales del gobierno nacional y gobiernos locales, los cuales pueden ser prohibitivos o permisivos.
-          div(numero="2" titulo="Validez legal.")
+          div(numero="2" titulo="Validez legal")
             p La validez legal, refiere al cómo se realiza el procedimiento legal, y se lleva a su realización. 
-          div(numero="3" titulo="Contratación de servicios.")
+          div(numero="3" titulo="Contratación de servicios")
             p En la contratación de servivico, se deben revisar las condiciones y acuerdos de nivel de servicio con proveedores, incluyendo el soporte, de tal manera que se cumplan con los requerimientos específicos del proyecto.
-          div(numero="4" titulo="Protección de datos.")
+          div(numero="4" titulo="Protección de datos")
             p Protección de datos personales, es de vital importancia que los prestadores de servicios cuenten con las regulaciones de protección de datos personales y que el procesamiento y almacenamiento de datos e información se de en países que cuentes con leyes o regulaciones sobre la protección de datos personales.
       .col-12.col-md-5.order-1.order-md-2.mb-4
         img(src="@/assets/curso/temas/tema5/img-13.png" style="max-width: 472px").mx-auto
@@ -344,7 +344,7 @@
           p.mb-0 Las organizaciones establecen o utilizan diversos métodos y escalas de valoración de riesgos según su contexto y gustos, ya que no existe una única metodología de riesgos. Se recomienda investigar sobre metodologías de riesgo, entre ellas <b>ISO/IEC 31000, COSO</b>, Magerit v3.
     p En cualquier caso, para <span style="color: #1565C0; font-weight: bold">la determinación de riesgos de los proyectos de TI</span>, se puede realizar siguiendo la siguiente fórmula:
 
-    .container-bg-doble.flex-wrap.flex-md-nowrap.mb-5.col-12.col-md-11.col-xl-8.mx-auto
+    .container-bg-doble-50.flex-wrap.flex-md-nowrap.mb-5.col-12.col-md-11.col-xl-8.mx-auto.py-3
       img(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 104px; position: relative; z-index: 1;").me-4.mb-4.mb-md-0
       .container-p
         p.mb-0.fw-bold <em>Riesgo, R = Probabilidad, P. multiplicado por el Impacto, I. = R = P x I</em>
@@ -394,6 +394,34 @@ export default {
     background-color: white
     height: 100%
     padding: 1.5rem 2rem
+.container-bg-doble-50
+  display: flex
+  align-items: center
+  position: relative
+  background-color: #F6F6F6
+  padding: 2rem
+  overflow: hidden
+  &::after
+    content: ''
+    position: absolute
+    height: 100%
+    width: 50%
+    left: 50%
+    background: #F59D36
+    @media (max-width: 768px)
+      height: 200%
+      width: 200%
+      left: 50%
+      top: 50%
+      transform: rotate(38deg) translateX(-28%)
+  .container-p
+    position: relative
+    z-index: 1
+    background-color: white
+    height: 100%
+    width: 100%
+    text-align: center
+    padding: 1.5rem 2rem
 .container-box-2-5
   background: linear-gradient(-15deg, #2EC49F, #2B3990)
   padding: 2rem
@@ -423,4 +451,15 @@ export default {
   background-color: #FFFAD8 !important
   &.cajon.color-primario:before
     background-color: #FFCA28
+.acordeon-t-5
+  .linea-tiempo-d__item
+    .linea-tiempo-d__item__content__title
+      background-color: #E5E5E5
+      border-radius: 5px
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content__title
+      background-color: #F6F6F6
+  .linea-tiempo-d__item__number
+    span
+      color: black
 </style>

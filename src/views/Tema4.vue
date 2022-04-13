@@ -18,7 +18,7 @@
           p.mb-0(style="color: #1565C0; font-weight: bold;") Debe establecer unas metas que permitan una interacción comunicativa perfecta entre los participantes, además de demostrar voluntad y decisión de tomar acciones que sean perseverantes y que además aporte estabilidad. Así mismo aportar información útil, con el fin de lograr receptividad, identificación de objetivos y desafíos, teniendo presente como recibe ese mensaje, claridad y entendimiento.
       .col-12.col-md-5.order-1.order-md-2.px-4.px-md-0
         img(src="@/assets/curso/temas/tema4/img-1.png" style="max-width: 459px").mx-auto.mb-4.mb-md-0
-    h3.titulo-tercero.mb-5 <span style="background-color: black; color: white; padding: .5rem 1rem;">Tipos</span>
+    h3.titulo-tercero.mb-5.mt-5.mt-md-0 <span style="background-color: black; color: white; padding: .5rem 1rem;">Tipos</span>
 
     p.mb-5 Los tipos de comunicación corresponden a las diferentes formas que se tiene al transmitir un mensaje. Y tienen que ver con los diferentes modos de llevar a cabo la relación mediada por un mensaje, los diferentes ámbitos o situaciones, entre otro tipo de parámetros, etc. A nivel general pueden clasificarse los siguientes tipos de comunicación:
 
@@ -53,15 +53,15 @@
           .col-12.col-xl-4.p-2
             .container-card
               img(src="@/assets/curso/temas/tema4/img-card-1.svg" style="max-width: 67px")
-              p.w-100.fw-bold.mb-0 Técnicas de <br> comunicación oral
+              p.w-100.fw-bold.mb-0(style="line-height: 1") Técnicas de <br> comunicación oral
           .col-12.col-xl-4.p-2
             .container-card
               img(src="@/assets/curso/temas/tema4/img-card-1.svg" style="max-width: 67px")
-              p.w-100.fw-bold.mb-0 Técnicas de comunicación escrita
+              p.w-100.fw-bold.mb-0(style="line-height: 1") Técnicas de <br> comunicación escrita
           .col-12.col-xl-4.p-2
             .container-card
               img(src="@/assets/curso/temas/tema4/img-card-1.svg" style="max-width: 67px")
-              p.w-100.fw-bold.mb-0 Técnicas de manejo <br> de la información
+              p.w-100.fw-bold.mb-0(style="line-height: 1") Técnicas de manejo <br> de la información
 
     img(src="@/assets/curso/temas/tema4/bg-3.svg" style="position: absolute; margin-left: -3rem; margin-right: -3rem;")
     .col-12.col-xl-4(style="position: relative; z-index: 1; background: linear-gradient(180deg, #039BE5, #027FBC); margin-top: -26px; margin-top: 2rem; margin-bottom: 1.5rem")
@@ -120,7 +120,7 @@
         .d-flex.mb-5
           img(src="@/assets/curso/temas/tema4/decorador-4.svg" style="max-width: 40px").mx-3.mx-md-4
           p.mb-0(style="color: #1565C0; font-weight: bold") Existen diversas técnicas para un adecuado manejo de información, a continuación, se listan algunas en relación a la gestión de servicios en la nube.
-        LineaTiempoD.color-acento-contenido
+        LineaTiempoD.color-acento-contenido.acordeon-t-4
           div(numero="1" titulo="Clasificación")
             p(style="color: #1565C0; font-weight: bold") Corresponde a un objetivo de la norma ISO 27001.
             p Asegurar que la información recibe un nivel apropiado de protección, de acuerdo con su importancia para la organización.
@@ -234,6 +234,9 @@ export default {
   height: 100%
   p
     font-size: 15px
+    padding-right: .3rem
+    padding-left: .3rem
+    padding-bottom: .3rem
   img
     margin-top: 1rem
     margin-bottom: .5rem
@@ -249,4 +252,15 @@ export default {
   background-color: #FFECB1 !important
   &.cajon.color-primario:before
     background-color: #FFCA28
+.acordeon-t-4
+  .linea-tiempo-d__item
+    .linea-tiempo-d__item__content__title
+      background-color: #E5E5E5
+      border-radius: 5px
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content__title
+      background-color: #F6F6F6
+  .linea-tiempo-d__item__number
+    span
+      color: black
 </style>
