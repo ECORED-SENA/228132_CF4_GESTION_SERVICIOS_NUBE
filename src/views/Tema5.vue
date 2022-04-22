@@ -25,7 +25,7 @@
       img(src="@/assets/curso/temas/tema4/decorador-4.svg" style="max-width: 43px").mx-3.mx-md-4
       p.me-0.me-md-5.mb-0(style="color: #1565C0; font-weight: bold") En general, las fases de un proyecto se estructuran con base al ciclo Deming o PHVA, por sus siglas en español: Planificar, Hacer, Verificar y Actuar, pero no es camisa de fuerza.
     
-    TabsB.color-secundario.mb-5
+    TabsB.color-secundario.mb-5.tabs-t5
       .py-4.py-md-5(titulo="Planear" :icono="require('@/assets/curso/temas/tema5/img-2.svg')")
         .row.align-items-center
           .col-md-8.mb-4.mb-md-0
@@ -270,43 +270,43 @@
             .row.justify-content-center
               .col-8
                 img(src='@/assets/curso/temas/tema5/number-1.svg' style='max-width: 60px' alt='AvatarTop').mb-2.mx-auto
-            p.fw-bold.mb-0.text-center(style="font-size: 15px") Nombre de la actividad
+            p.fw-bold.mb-0.text-center(style="font-size: 15px; line-height: 1;") Nombre de la actividad
           
           .tarjeta.color-acento-botones.p-3.h-100(style="background-color: #FFFFFF; box-shadow: 0 3px 6px #00000030")
             .row.justify-content-center
               .col-8
                 img(src='@/assets/curso/temas/tema5/number-2.svg' style='max-width: 60px' alt='AvatarTop').mb-2.mx-auto
-            p.fw-bold.mb-0.text-center(style="font-size: 15px") Descripción de la actividad
+            p.fw-bold.mb-0.text-center(style="font-size: 15px; line-height: 1;") Descripción de la actividad
 
           .tarjeta.color-acento-botones.p-3.h-100(style="background-color: #FFFFFF; box-shadow: 0 3px 6px #00000030")
             .row.justify-content-center
               .col-8
                 img(src='@/assets/curso/temas/tema5/number-3.svg' style='max-width: 60px' alt='AvatarTop').mb-2.mx-auto
-            p.fw-bold.mb-0.text-center(style="font-size: 15px") Responsable de la realización o ejecución
+            p.fw-bold.mb-0.text-center(style="font-size: 15px; line-height: 1;") Responsable de la realización o ejecución
 
           .tarjeta.color-acento-botones.p-3.h-100(style="background-color: #FFFFFF; box-shadow: 0 3px 6px #00000030")
             .row.justify-content-center
               .col-8
                 img(src='@/assets/curso/temas/tema5/number-4.svg' style='max-width: 60px' alt='AvatarTop').mb-2.mx-auto
-            p.fw-bold.mb-0.text-center(style="font-size: 15px") Objetivo especifico relacionado
+            p.fw-bold.mb-0.text-center(style="font-size: 15px; line-height: 1;") Objetivo especifico relacionado
 
           .tarjeta.color-acento-botones.p-3.h-100(style="background-color: #FFFFFF; box-shadow: 0 3px 6px #00000030")
             .row.justify-content-center
               .col-8
                 img(src='@/assets/curso/temas/tema5/number-5.svg' style='max-width: 60px' alt='AvatarTop').mb-2.mx-auto
-            p.fw-bold.mb-0.text-center(style="font-size: 15px") Fecha de inicio
+            p.fw-bold.mb-0.text-center(style="font-size: 15px; line-height: 1;") Fecha de inicio
 
           .tarjeta.color-acento-botones.p-3.h-100(style="background-color: #FFFFFF; box-shadow: 0 3px 6px #00000030")
             .row.justify-content-center
               .col-8
                 img(src='@/assets/curso/temas/tema5/number-6.svg' style='max-width: 60px' alt='AvatarTop').mb-2.mx-auto
-            p.fw-bold.mb-0.text-center(style="font-size: 15px") Fecha de finalización
+            p.fw-bold.mb-0.text-center(style="font-size: 15px; line-height: 1;") Fecha de finalización
 
           .tarjeta.color-acento-botones.me-2.p-3.h-100(style="background-color: #FFFFFF; box-shadow: 0 3px 6px #00000030")
             .row.justify-content-center
               .col-8
                 img(src='@/assets/curso/temas/tema5/number-7.svg' style='max-width: 60px' alt='AvatarTop').mb-2.mx-auto
-            p.fw-bold.mb-0.text-center(style="font-size: 15px") Porcentaje de avance
+            p.fw-bold.mb-0.text-center(style="font-size: 15px; line-height: 1;") Porcentaje de avance
     .col-12.col-md-4.col-xl-3(style="position: relative; z-index: 1; background: linear-gradient(180deg, #039BE5, #027FBC); margin-top: -26px; margin-top: 2rem; margin-bottom: 1.5rem")
       p.mb-0.p-2.fw-bold(style="font-size: 22px; color: white;") Aspectos legales
     p <b>En la gestión de proyectos de TI</b>, se deben tener en cuenta los aspectos legales según el contexto, para lo cual se recomienda tener claro una matriz de cumplimiento legal, en donde se pueda identificar dentro de cada proyecto que requisitos legales se deben cumplir, esto con el fin de evitar incumplimientos que puedan generar impactos adversos de tipo económico, operativo o reputacional.
@@ -462,4 +462,7 @@ export default {
   .linea-tiempo-d__item__number
     span
       color: black
+.tabs-t5
+  .tabs-b__tab__icon
+    width: auto
 </style>

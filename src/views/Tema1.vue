@@ -77,7 +77,7 @@
           .col-12.col-lg-6.col-xl-3.p-2
             .container-card
               img(src="@/assets/curso/temas/tema1/img-card-4.svg" style="max-width: 63px")
-              p.w-100.fw-bold.mb-0 La misma estrategia de negocio
+              p.w-100.fw-bold.mb-0(style="line-height: 1") La misma estrategia de negocio
     .col-12.col-md-8.mb-5(style="background: linear-gradient(180deg, #039BE5, #027FBC); margin-top: -26px")
       p.mb-0.p-2.fw-bold(style="font-size: 18px; color: white;") En el siguiente recurso didáctico podremos ampliar la información sobre cada una de esas 6Rs: 
     .row.mb-5(style="position: relative; z-index: 1;")
