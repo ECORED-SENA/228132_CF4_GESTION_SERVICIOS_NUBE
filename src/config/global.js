@@ -126,25 +126,27 @@ export default {
   },
   complementario: [
     {
-      texto: 'Tipos de contratos',
+      texto:
+        'Ministerio de Comercio, Industria y Turismo. (2013). Decreto Número 1317 del 27 de junio de 2013.',
       tipo: 'PDF',
-      link:
-        'https://www.mintic.gov.co/arquitecturati/630/articles-9011_documento.pdf',
+      descarga: '/downloads/articles-9011_documento.pdf',
     },
     {
-      texto: 'Contratación',
+      texto:
+        'Agencia española de protección de datos. (2013). Guía para clientes que contraten servicios de Computing.',
       tipo: 'PDF',
-      link:
-        'http://www.oas.org/es/sla/ddi/docs/Gu%C3%ADa%20para%20clientes%20que%20contraten%20servicios%20de%20Cloud%20Computing%20-%20AGPD.pdf',
+      descarga:
+        '/downloads/GuíaParaClientesQueContratenServiciosDeCloudComputing-AGPD.pdf',
     },
     {
-      texto: 'Contratación',
+      texto:
+        'República de Colombia, Ministerio de tecnologías de la información y las comunicaciones.  (2012). Ley 1581 de 2012.',
       tipo: 'PDF',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=49981',
+      descarga: '/downloads/Ley_1581_de_2012.pdf',
     },
     {
-      texto: 'Proveedores de servicios en la nube',
+      texto:
+        'Página relacionada con los proveedores de servicios en la nube. Accedida el 27 de diciembre de 2021 Public Cloud Services Comparison, comparecloud.in',
       tipo: 'Página web',
       link: 'https://comparecloud.in/',
     },
@@ -161,7 +163,7 @@ export default {
         'Según la RAE (Real Academia Española) define contratación como “Pacto o convenio, oral o escrito, entre partes que se obligan sobre materia o cosa determinada, y a cuyo cumplimiento pueden ser compelidas”.',
     },
     {
-      termino: '<em>Cloud Computing</em>',
+      termino: '<em>Cloud computing</em>',
       significado:
         'La computación en la nube, conocida también como servicios en la nube, consiste en el uso de una red de servidores remotos alojados en Internet para almacenar, administrar y procesar datos e información, en lugar de un servidor local o una computadora personal.',
     },

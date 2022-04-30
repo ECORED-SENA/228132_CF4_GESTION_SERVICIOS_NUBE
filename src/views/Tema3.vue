@@ -15,8 +15,8 @@
       .col-12.col-md-7
         .d-flex.mt-4.pt-3
           img(src="@/assets/curso/temas/tema3/decorador-1.svg" style="max-width: 29px").mx-3.mb-5
-          p(style="color: #1565C0; font-weight: bold;") Debido a la masificación y cada vez mayor adopción de tecnologías de cloud computing, han sido muchos los nuevos proveedores que han ido surgiendo y posicionando sus ofertas de servicios, sin embargo, en el mundo occidental podemos mencionar los siguientes como los más grandes y más importantes proveedores de servicios en la nube.
-        p.texto-final-decorador-t3.mb-5 Los proveedores de servicios cloud han surgido para ofrecer a las organizaciones soluciones innovadoras, de vanguardia, contempla funcionalidades tanto técnicas, que benefician la disponibilidad, así como herramientas para la gestión de los activos de información, a partir de modelos de negocio basados en servicios con componentes modulares. 
+          p(style="color: #1565C0; font-weight: bold;") Debido a la masificación y cada vez mayor adopción de tecnologías de <em>cloud computing</em>, han sido muchos los nuevos proveedores que han ido surgiendo y posicionando sus ofertas de servicios, sin embargo, en el mundo occidental podemos mencionar los siguientes como los más grandes y más importantes proveedores de servicios en la nube.
+        p.texto-final-decorador-t3.mb-5 Los proveedores de servicios <em>cloud</em> han surgido para ofrecer a las organizaciones soluciones innovadoras, de vanguardia, contempla funcionalidades tanto técnicas, que benefician la disponibilidad, así como herramientas para la gestión de los activos de información, a partir de modelos de negocio basados en servicios con componentes modulares. 
         .d-flex.flex-wrap.justify-content-center
           .col-6.col-md-4.col-xl-2.px-1.mb-2
             .container-card-12.px-2.py-3
@@ -49,48 +49,48 @@
 
       .tarjeta.color-acento-botones.pt-3.infografia-t3(x="23%" y="20%" numero="")
         .container-infografia-t3
-          p.title Alibaba <span>cloud</span>
-          p Traducción del inglés- <em>Alibaba Cloud</em>-, también conocida como <em>Aliyun</em>, es una empresa de computación en la nube, una subsidiaria de <em>Alibaba Group. Alibaba Cloud</em> proporciona servicios de computación en la nube a empresas en línea y al propio ecosistema de comercio electrónico de <em>Alibaba</em>.
+          p.title Alibaba <span>Cloud</span>
+          p Traducción del inglés-<em>Alibaba Cloud</em>-, también conocida como <em>Aliyun</em>, es una empresa de computación en la nube, una subsidiaria de <em>Alibaba Group. Alibaba Cloud</em> proporciona servicios de computación en la nube a empresas en línea y al propio ecosistema de comercio electrónico de <em>Alibaba</em>.
 
       .tarjeta.color-acento-botones.pt-3.infografia-t3(x="14%" y="47%" numero="")
         .container-infografia-t3
-          p.title Amazone web <span>services</span>
+          p.title Amazone web <span>Services</span>
           p <em>Amazon Web Services</em> es una colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por <em>Amazon.com</em>. Es usado en aplicaciones populares como <em>Dropbox, Foursquare, HootSuite</em>.
 
       .tarjeta.color-acento-botones.pt-3.infografia-t3(x="15%" y="64%" numero="")
         .container-infografia-t3
-          p.title Digital <span>ocean</span>
+          p.title DigitalOcean
           p <em>DigitalOcean</em> es un proveedor estadounidense de servidores virtuales privados, con sede principal en la ciudad de Nueva York. La compañía alquila instalaciones de centros de cómputo existentes, incluyendo sitios como Nueva York, Toronto, Bangalore, Ámsterdam, San Francisco, Londres y Singapur.
       
       .tarjeta.color-acento-botones.pt-3.infografia-t3(x="20%" y="85%" numero="")
         .container-infografia-t3
-          p.title Google <span>cloud</span>
+          p.title Google <span>Cloud</span>
           p <em>Google Cloud</em> es una plataforma que ha reunido todas las aplicaciones de desarrollo <em>web</em> que <em>Google</em> estaba ofreciendo por separado.
 
       .tarjeta.color-acento-botones.pt-3.infografia-t3(x="50%" y="99%" numero="")
         .container-infografia-t3
-          p.title Huawei  <span>cloud</span>
-          p Huawei Mobile Cloud es un sistema de almacenamiento nube o cloud computing desarrollado por Huawei. Fue lanzado el 27 de septiembre de 2017 para los dispositivos Huawei con el sistema operativo HarmonyOS y Android. 
+          p.title Huawei  <span>Cloud</span>
+          p Huawei <em>Mobile Cloud</em> es un sistema de almacenamiento nube o <em>cloud computing</em> desarrollado por Huawei. Fue lanzado el 27 de septiembre de 2017 para los dispositivos Huawei con el sistema operativo HarmonyOS y Android. 
 
       .tarjeta.color-acento-botones.pt-3.infografia-t3(x="81%" y="85%" numero="")
         .container-infografia-t3
-          p.title IBM <span>cloud</span>
-          p IBM cloud computing es un conjunto de servicios de computación en la nube para empresas que ofrece la compañía de tecnología de la información IBM. 
+          p.title IBM <span>Cloud</span>
+          p IBM <em>cloud computing</em> es un conjunto de servicios de computación en la nube para empresas que ofrece la compañía de tecnología de la información IBM. 
 
       .tarjeta.color-acento-botones.pt-3.infografia-t3(x="86%" y="64%" numero="")
         .container-infografia-t3
-          p.title Microsoft <span>azure</span>
+          p.title Microsoft <span>Azure</span>
           p Microsoft Azure es un servicio de computación en la nube creado por Microsoft para construir, probar, desplegar y administrar aplicaciones y servicios mediante el uso de sus centros de datos.
 
       .tarjeta.color-acento-botones.pt-3.infografia-t3(x="87%" y="47%" numero="")
         .container-infografia-t3
-          p.title Oracle <span>cloud</span>
+          p.title Oracle <span>Cloud</span>
           p Es un servicio de computación en nube ofrecido por <em>Oracle Corporation</em> que proporciona servidores, almacenamiento, redes, aplicaciones y servicios a través de una red global de centros de datos administrados por <em>Oracle Corporation</em>.
 
       .tarjeta.color-acento-botones.pt-3.infografia-t3(x="83%" y="20%" numero="")
         .container-infografia-t3
-          p.title Salesforce <span>cloud</span>
-          p <em>Salesforce</em> es una empresa estadounidense de <em>software</em> bajo demanda, más conocida por producir un CRM llamado Sales Cloud.
+          p.title Salesforce <span>Cloud</span>
+          p <em>Salesforce</em> es una empresa estadounidense de <em>software</em> bajo demanda, más conocida por producir un CRM llamado Sales <em>Cloud</em>.
 
     .position-relative.d-block.d-md-none.mb-5(style="margin-right: -1.5rem; margin-right: -1.5rem; margin-left: -1.5rem;")
       img(src="@/assets/curso/temas/tema3/img-movil-1.svg" style="max-width: 481px").mx-auto.px-4.mb-5.pb-4
@@ -98,47 +98,47 @@
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4" style="z-index: 1; position: relative;").slider-movil-t3
         .tarjeta.color-acento-botones.pt-3.infografia-t3
           .container-infografia-t3
-            p.title Alibaba <span>cloud</span>
+            p.title Alibaba <span>Cloud</span>
             p Traducción del inglés- <em>Alibaba Cloud</em>-, también conocida como <em>Aliyun</em>, es una empresa de computación en la nube, una subsidiaria de <em>Alibaba Group. Alibaba Cloud</em> proporciona servicios de computación en la nube a empresas en línea y al propio ecosistema de comercio electrónico de <em>Alibaba</em>.
 
         .tarjeta.color-acento-botones.pt-3.infografia-t3
           .container-infografia-t3
-            p.title Amazone web <span>services</span>
+            p.title Amazone web <span>Services</span>
             p <em>Amazon Web Services</em> es una colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por <em>Amazon.com</em>. Es usado en aplicaciones populares como <em>Dropbox, Foursquare, HootSuite</em>.
 
         .tarjeta.color-acento-botones.pt-3.infografia-t3
           .container-infografia-t3
-            p.title Digital <span>ocean</span>
+            p.title DigitalOcean
             p <em>DigitalOcean</em> es un proveedor estadounidense de servidores virtuales privados, con sede principal en la ciudad de Nueva York. La compañía alquila instalaciones de centros de cómputo existentes, incluyendo sitios como Nueva York, Toronto, Bangalore, Ámsterdam, San Francisco, Londres y Singapur.
         
         .tarjeta.color-acento-botones.pt-3.infografia-t3
           .container-infografia-t3
-            p.title Google <span>cloud</span>
+            p.title Google <span>Cloud</span>
             p <em>Google Cloud</em> es una plataforma que ha reunido todas las aplicaciones de desarrollo <em>web</em> que <em>Google</em> estaba ofreciendo por separado.
 
         .tarjeta.color-acento-botones.pt-3.infografia-t3
           .container-infografia-t3
-            p.title Huawei  <span>cloud</span>
-            p Huawei Mobile Cloud es un sistema de almacenamiento nube o cloud computing desarrollado por Huawei. Fue lanzado el 27 de septiembre de 2017 para los dispositivos Huawei con el sistema operativo HarmonyOS y Android. 
+            p.title Huawei  <span>Cloud</span>
+            p Huawei <em>Mobile Cloud</em> es un sistema de almacenamiento nube o <em>cloud computing</em> desarrollado por Huawei. Fue lanzado el 27 de septiembre de 2017 para los dispositivos Huawei con el sistema operativo HarmonyOS y Android. 
 
         .tarjeta.color-acento-botones.pt-3.infografia-t3
           .container-infografia-t3
-            p.title IBM <span>cloud</span>
-            p IBM cloud computing es un conjunto de servicios de computación en la nube para empresas que ofrece la compañía de tecnología de la información IBM. 
+            p.title IBM <span>Cloud</span>
+            p IBM <em>cloud computing</em> es un conjunto de servicios de computación en la nube para empresas que ofrece la compañía de tecnología de la información IBM. 
 
         .tarjeta.color-acento-botones.pt-3.infografia-t3
           .container-infografia-t3
-            p.title Microsoft <span>azure</span>
+            p.title Microsoft <span>Azure</span>
             p Microsoft Azure es un servicio de computación en la nube creado por Microsoft para construir, probar, desplegar y administrar aplicaciones y servicios mediante el uso de sus centros de datos.
 
         .tarjeta.color-acento-botones.pt-3.infografia-t3
           .container-infografia-t3
-            p.title Oracle <span>cloud</span>
+            p.title Oracle <span>Cloud</span>
             p Es un servicio de computación en nube ofrecido por <em>Oracle Corporation</em> que proporciona servidores, almacenamiento, redes, aplicaciones y servicios a través de una red global de centros de datos administrados por <em>Oracle Corporation</em>.
 
         .tarjeta.color-acento-botones.pt-3.infografia-t3
           .container-infografia-t3
-            p.title Salesforce <span>cloud</span>
+            p.title Salesforce <span>Cloud</span>
             p <em>Salesforce</em> es una empresa estadounidense de <em>software</em> bajo demanda, más conocida por producir un CRM llamado Sales Cloud.
     .container-bg-doble.flex-wrap.flex-md-nowrap.mb-5
       img(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 104px; position: relative; z-index: 1;").me-4.mb-4.mb-md-0

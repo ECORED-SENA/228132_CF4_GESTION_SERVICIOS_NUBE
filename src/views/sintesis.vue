@@ -22,7 +22,7 @@
     p.mb-5 El siguiente mapa ofrece una vista rápida de los contenidos de este componente formativo:
 
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-12.mb-5
         figure
           img(src="@/assets/curso/img-sintesis.svg", alt="alt")
 

@@ -29,7 +29,7 @@
           p.mb-5 <b>Todo proyecto de implementación de servicios en la nube debe estar orientado o dirigido por una estrategia definida de migración</b> la cual varía según múltiples factores, por lo que no hay una única estrategia para una cartera de productos TI.
           .d-flex.ps-3.mb-5
             img(src="@/assets/curso/temas/tema1/decorador-2.svg" style="max-width: 41px")
-            p.ps-3.fw-bold.mb-0(style="color: #1565C0") No obstante, una de las ventajas de la infraestructura <em>cloud</em> es permitir combinar servicios que consoliden las necesidades de la organización. En el <em>cloud computing</em> se suele utilizar la fórmula de ‘las 6 Rs’ para identificar distintas estrategias de migración a aplicar en función de las características del proyecto TI, como puede apreciarse en la figura que se encuentra a continuación.
+            p.ps-3.fw-bold.mb-0(style="color: #1565C0") No obstante, una de las ventajas de la infraestructura <em>cloud</em> es permitir combinar servicios que consoliden las necesidades de la organización. En el <em>cloud computing</em> se suele utilizar la fórmula de "las 6 Rs" para identificar distintas estrategias de migración a aplicar en función de las características del proyecto TI, como puede apreciarse en la figura que se encuentra a continuación.
         .col-12.col-md-4.order-1.order-md-2.mb-4.mb-md-0
           img(src="@/assets/curso/temas/tema1/img-2.svg" style="max-width: 373px").mx-auto
     
@@ -95,7 +95,7 @@
           .container-acordeon-vertical(numero="3" titulo="<em>(R)epurchasing</em>")
             p Es una estrategia totalmente diferente, pues ya no se trata de migrar la aplicación existente, sino de adoptar una nueva aplicación que se encuentre en la nube. Por ejemplo, podríamos abandonar nuestro CRM legado y migrar hacia <em>Salesforce</em>. Si bien es cierto, no existe una migración de aplicación propiamente dicha, son necesarias las acciones como migrar datos, rediseñar interfaces, etc.
             img(src="@/assets/curso/temas/tema1/img-acordeon-3.svg" style="max-width: 514px").px-2.mx-auto
-          .container-acordeon-vertical(numero="4" titulo="<em>(R)efactoring / (R)-arquitecting</em>")
+          .container-acordeon-vertical(numero="4" titulo="<em>(R)efactoring/(R)-arquitecting</em>")
             p.mb-3 Esta estrategia consiste en hacer un rediseño profundo de la aplicación que sea realmente cloud nativa. Se considera la llamada “reingeniería” (cambios profundos en la aplicación), como se indica, semejante al desarrollo de <em>cloud</em> nativo, que consiste en la construcción desde cero.
             img(src="@/assets/curso/temas/tema1/img-acordeon-4.svg" style="max-width: 514px").px-2.mx-auto
           .container-acordeon-vertical(numero="5" titulo="<em>(R)etire</em>")
@@ -126,19 +126,19 @@
             th.fw-normal Re-hospedaje<br> <em>(“lift and shift”)</em>
             td Esta estrategia es una de las más comunes y sencilla de implementar, aunque también se considera que presenta muchas más probabilidades de generar problemas, incrementar los costes y alinear los <em>stakeholders</em> clave. El re-hospedaje, consiste en replicar un sistema existente en una infraestructura cloud. <br><br> Su implementación es rápida y práctica, pero hereda las debilidades y fallas de los sistemas originarios hacia la nube.
           tr
-            th.fw-normal Re-Plataforma
+            th.fw-normal Re-plataforma
             td Estrategia que implica análisis de negocio para identificación de procesos y servicios que puedan ser excluidos de la migración, requiere un conocimiento de la arquitectura originaria y procesos para la toma de decisiones.
           tr
-            th.fw-normal <em>Re-compra</em>
+            th.fw-normal Re-compra
             td Estrategia asociada a la recompra de versiones <em>SaaS</em> de una aplicación utilizada por la organización, por ejemplo:  <em>Microsoft Exchange</em> migrar a <em>Office 365</em> obteniendo las funcionalidades y beneficios de un producto novedoso y seguro. <br><br>Este modelo requiere de una importante justificación para ser presentado ante la alta dirección, ya que es común escuchar que no se debe comprar algo con lo que ya se cuenta, de ahí la importancia de presentar los beneficios y bondades de la nueva adquisición. 
           tr
-            th.fw-normal <em>Re-diseño</em>
+            th.fw-normal Re-diseño
             td Estrategia de mayor complejidad y de mayor costo ya que implica re arquitecturizar sistemas de información y procesos, buscando aprovechar los beneficios de la tecnología Cloud. Considera que puede requerir diseñar la infraestructura desde cero, pero esto se puede ver beneficiado con una optimización de recursos, y evitar gastos innecesarios en la operación de la infraestructura <em>cloud</em>.
           tr
-            th.fw-normal <em>Retención</em>
+            th.fw-normal Retención
             td Esta estrategia considera la posibilidad de no tener que migrar hacia la nube toda una infraestructura. Ya sea por costos, restricciones de licenciamiento o compatibilidad. Para este caso, se conserva la aplicación o algún componente de la misma en el entorno original, identificando que, en algunas ocasiones, no todo puede ser llevado hacia la nube.
           tr
-            th.fw-normal <em>Retirada </em>
+            th.fw-normal Retirada 
             td Busca retirar de la arquitectura cloud, aquellos componentes que ya no se utilizan y que generan carga o costo operativo.
 
 

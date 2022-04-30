@@ -35,4 +35,7 @@ export default {
   background-image: url(assets/curso/portada/img-fontdo-tema.png) !important
   background-position: initial !important
   height: 220px
+.banner-interno__titulo
+  h2
+    color: #2A81A5 !important
 </style>

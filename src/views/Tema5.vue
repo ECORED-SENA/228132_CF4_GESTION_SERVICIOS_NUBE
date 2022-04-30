@@ -10,11 +10,11 @@
     .container-bg-doble.flex-wrap.flex-md-nowrap.mb-5
       img(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 104px; position: relative; z-index: 1;").me-4.mb-4.mb-md-0
       .container-p
-        p.mb-0 <span style="color: #1565C0; font-weight: bold">La gestión de proyectos de tecnologías de la información y la comunicación - TI</span>, puede ser abordado desde diversos aspectos de la gestión empresarial según el contexto, pero en cualquiera de los casos, escenarios y/o contextos, para una adecuada administración de los proyectos de TI se deben considerar los siguientes aspectos.
+        p.mb-0 <span style="color: #1565C0; font-weight: bold">La gestión de proyectos de tecnologías de la información y la comunicación-TI</span>, puede ser abordada desde diversos aspectos de la gestión empresarial según el contexto, pero en cualquiera de los casos, escenarios o contextos, para una adecuada administración de los proyectos de TI se deben considerar los siguientes aspectos.
     .col-12.col-xl-9.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
         h5(style="font-size: 13px !important") Figura 3.
-        span(style="font-size: 13px !important") <em>Aspectos contenidos en la administración de proyectos TI</em>
+        span(style="font-size: 13px !important") Aspectos contenidos en la administración de proyectos TI
       img(src="@/assets/curso/temas/tema5/img-1.svg")
     .col-12.col-xl-6(style="position: relative; z-index: 1; background: linear-gradient(180deg, #039BE5, #027FBC); margin-top: -26px; margin-top: 2rem; margin-bottom: 1.5rem")
       p.mb-0.p-2.ps-3.fw-bold(style="font-size: 22px; color: white;") Fases (Planeación, Ejecución, Verificación y Mejora)
@@ -67,7 +67,7 @@
       .col-12.col-xl-9.mx-auto.position-relative.pb-5
         .titulo-sexto.color-acento-contenido
           h5(style="font-size: 13px !important") Tabla 2.
-          span(style="font-size: 13px !important") <em>Cronograma de actividades de proyectos de TI</em>
+          span(style="font-size: 13px !important") Cronograma de actividades de proyectos de TI
         .tabla-b.color-acento-contenido.mb-5
           .tabla-b__header(style="background: linear-gradient(180deg, rgba(46,196,159,1) 0%, rgba(43,57,144,1) 100%); border-top: 4px solid black; height: 13px; padding: 0")
           table(style="background-color: white")
@@ -85,7 +85,7 @@
                 tr.d-flex
                   td(style="background-color: white").text-center.w-100 Actividad 1
                 tr.d-flex
-                  td(style="background-color: white; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8;").text-center.w-100 Actividad 1
+                  td(style="background-color: white; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8;").text-center.w-100 Actividad 2
                 tr.d-flex
                   td(style="background-color: white").text-center.w-100 ...
               td(style="border-right: 1px solid #e8e8e8; padding: 0;") 
@@ -103,13 +103,13 @@
                 tr.d-flex
                   td(style="background-color: white").text-center.w-100 ...
             tr
-              th.fw-normal PLANEAR
-              td(style="border-right: 1px solid #e8e8e8;") Objetivo 1
+              th.fw-normal HACER
+              td(style="border-right: 1px solid #e8e8e8;") Objetivo 2
               td(style="border-right: 1px solid #e8e8e8; padding: 0;") 
                 tr.d-flex
                   td(style="background-color: transparent !important").text-center.w-100 Actividad 1
                 tr(style="background-color: transparent !important; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8;").text-center.d-flex
-                  td(style="background-color: transparent !important").text-center.w-100 Actividad 1
+                  td(style="background-color: transparent !important").text-center.w-100 Actividad 2
                 tr.d-flex 
                   td(style="background-color: transparent !important").text-center.w-100 ...
               td(style="border-right: 1px solid #e8e8e8; padding: 0;") 
@@ -127,13 +127,13 @@
                 tr.d-flex
                   td(style="background-color: transparent !important").text-center.w-100 ...
             tr
-              th.fw-normal PLANEAR
-              td(style="border-right: 1px solid #e8e8e8;") Objetivo 1
+              th.fw-normal VERIFICAR
+              td(style="border-right: 1px solid #e8e8e8;") Objetivo 3
               td(style="border-right: 1px solid #e8e8e8; padding: 0;")
                 tr.d-flex
                   td(style="background-color: white").text-center.w-100 Actividad 1
                 tr.d-flex 
-                  td(style="background-color: white; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8;").text-center.w-100 Actividad 1
+                  td(style="background-color: white; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8;").text-center.w-100 Actividad 2
                 tr.d-flex 
                   td(style="background-color: white").text-center.w-100 ...
               td(style="border-right: 1px solid #e8e8e8; padding: 0;") 
@@ -151,13 +151,13 @@
                 tr.d-flex
                   td(style="background-color: white").text-center.w-100 ...
             tr
-              th.fw-normal PLANEAR
-              td(style="border-right: 1px solid #e8e8e8;") Objetivo 1
+              th.fw-normal ACTUAR
+              td(style="border-right: 1px solid #e8e8e8;") Objetivo 3
               td(style="border-right: 1px solid #e8e8e8; padding: 0;")
                 tr.d-flex
                   td(style="background-color: transparent").w-100 Actividad 1
                 tr.d-flex(style="background-color: transparent !important; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8;")
-                  td(style="background-color: transparent").w-100 Actividad 1
+                  td(style="background-color: transparent").w-100 Actividad 2
                 tr.d-flex 
                   td(style="background-color: transparent").w-100 ...
               td(style="border-right: 1px solid #e8e8e8; padding: 0;") 
@@ -184,7 +184,7 @@
     
     .titulo-sexto.color-acento-contenido
       h5(style="font-size: 13px !important") Tabla 3.
-      span(style="font-size: 13px !important") <em>Criterios en la gestión de proyectos TI</em>
+      span(style="font-size: 13px !important") Criterios en la gestión de proyectos TI
     .tabla-b.color-acento-contenido.mb-5
       .tabla-b__header(style="background: linear-gradient(180deg, rgba(46,196,159,1) 0%, rgba(43,57,144,1) 100%); border-top: 4px solid black; height: 13px; padding: 0")
       table(style="background-color: white")
@@ -194,47 +194,47 @@
           td.text-center.fw-bold(style="font-size: 20px;") Criterio
         tr
           th.fw-normal Humano
-          td Conocimiento: Profesión y especialidad que se requiere según el proyecto de TI. (Especialista, Profesional, Tecnólogo, Técnico, etc.)
+          td Conocimiento: profesión y especialidad que se requiere según el proyecto de TI (especialista, profesional, tecnólogo, técnico, etc.)
             br
             br
-            | Experiencia: La experiencia que se requiere para tener mayor seguridad y confianza para la ejecución de las actividades del proyecto.
+            | Experiencia: la experiencia que se requiere para tener mayor seguridad y confianza para la ejecución de las actividades del proyecto.
         tr
           th.fw-normal Económico y finaciero
-          td Costos de Administración y Seguimiento: Se deben considerar los costos de personal, viáticos, maquinaria y equipo, vehículos, transporte, estudios y auditorias, materiales y suministros.
+          td Costos de administración y seguimiento: se deben considerar los costos de personal, viáticos, maquinaria y equipo, vehículos, transporte, estudios y auditorias, materiales y suministros.
             br
             br
-            | Costos Directos: Considerar Salarios, viáticos, mano de obra, materiales y suministros, transferencias, Estudios y auditorias, Consultorías, capacitación y divulgación, 
+            | Costos Directos: considerar salarios, viáticos, mano de obra, materiales y suministros, transferencias, estudios y auditorias, consultorías, capacitación y divulgación, 
             br
             br
-            | Costos concurrentes: Considerar Salarios, viáticos, servicios generales, insumos y materiales, mantenimiento, capacitación y concientización.
+            | Costos concurrentes: considerar salarios, viáticos, servicios generales, insumos y materiales, mantenimiento, capacitación y concientización.
             br
             br
-            | Imprevistos: Rubros para afrontar posibles sucesos adversos.
+            | Imprevistos: rubros para afrontar posibles sucesos adversos.
         tr
           th.fw-normal Tecnólogico
-          td Aplicaciones: Se deben considerar los requisitos de aplicaciones y/o <em>software</em>.
+          td Aplicaciones: se deben considerar los requisitos de aplicaciones o <em>software</em>.
             br
             br
-            | Usuarios: Según la cantidad de usuarios actual y provista se deben asignar recursos tecnológicos.
+            | Usuarios: según la cantidad de usuarios actual y provista se deben asignar recursos tecnológicos.
             br
             br
-            | Procesamiento: Considerar la capacidad de procesamiento requerida para aplicaciones, según el uso y cantidad de usuarios concurrentes.
+            | Procesamiento: considerar la capacidad de procesamiento requerida para aplicaciones, según el uso y cantidad de usuarios concurrentes.
             br
             br
-            | Memoria: Considerar la capacidad de memoria para el procesamiento requerida para aplicaciones, según el uso y cantidad de usuarios concurrentes.
+            | Memoria: considerar la capacidad de memoria para el procesamiento requerida para aplicaciones, según el uso y cantidad de usuarios concurrentes.
             br
             br
-            | Almacenamiento: Establecer la capacidad de almacenamiento requerida para aplicaciones y datos, según la información procesada, el uso y cantidad de usuarios concurrentes.
+            | Almacenamiento: establecer la capacidad de almacenamiento requerida para aplicaciones y datos, según la información procesada, el uso y cantidad de usuarios concurrentes.
             br
             br
-            | Conectividad: Determinar la capacidad de conectividad requerida para aplicaciones, según el uso y cantidad de usuarios concurrentes.
+            | Conectividad: determinar la capacidad de conectividad requerida para aplicaciones, según el uso y cantidad de usuarios concurrentes.
 
         tr
           th.fw-normal Información
-          td Datos: Considerar la información y datos necesaria para el correcto funcionamiento de las aplicaciones y una adecuada ejecución de los procesos por parte de los usuarios.
+          td Datos: considerar la información y datos necesaria para el correcto funcionamiento de las aplicaciones y una adecuada ejecución de los procesos por parte de los usuarios.
         tr
           th.fw-normal Otros
-          td Instalaciones y equipos: Se debe considerar los recursos de instalaciones, maquinaria, dispositivos y equipos técnicos y tecnológicos que se requieren.
+          td Instalaciones y equipos: se debe considerar los recursos de instalaciones, maquinaria, dispositivos y equipos técnicos y tecnológicos que se requieren.
         tr
           td(style="padding: 4px")
           td(style="padding: 4px")
@@ -248,13 +248,13 @@
       .col-12.col-md-6.d-flex.pe-0.pe-md-2.mb-4.mb-md-0
         .container-box-2-5
           img(src="@/assets/curso/temas/tema5/img-10.svg" style="max-width: 294px").mb-5
-          p Se debe tener en cuenta los recursos que se disponen (Humanos, económicos, tecnológicos, e información), de esta manera se pueden planear la realización de las actividades de manera objetiva.
+          p Se debe tener en cuenta los recursos que se disponen (humanos, económicos, tecnológicos, e información), de esta manera se pueden planear la realización de las actividades de manera objetiva.
           img(src="@/assets/curso/temas/tema2/decorador-1.svg" style="max-width: 86px").ms-auto
       .col-12.col-md-6.d-flex.ps-0.ps-md-2
         .container-box-2-5.h-100
           div
             img(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 382px").mb-5
-            p Establecer con base a los recursos disponibles, especialmente los humanos, el conocimiento y el esfuerzo que se requiere para realizar la actividad el periodo de tiempo que tomaría realizar cada actividad del proyecto.
+            p Establecer con base en los recursos disponibles, especialmente los humanos, el conocimiento y el esfuerzo que se requiere para realizar la actividad el periodo de tiempo que tomaría realizar cada actividad del proyecto.
           img(src="@/assets/curso/temas/tema2/decorador-1.svg" style="max-width: 86px").ms-auto
 
     .col-12.d-flex.flex-wrap
@@ -288,7 +288,7 @@
             .row.justify-content-center
               .col-8
                 img(src='@/assets/curso/temas/tema5/number-4.svg' style='max-width: 60px' alt='AvatarTop').mb-2.mx-auto
-            p.fw-bold.mb-0.text-center(style="font-size: 15px; line-height: 1;") Objetivo especifico relacionado
+            p.fw-bold.mb-0.text-center(style="font-size: 15px; line-height: 1;") Objetivo específico relacionado
 
           .tarjeta.color-acento-botones.p-3.h-100(style="background-color: #FFFFFF; box-shadow: 0 3px 6px #00000030")
             .row.justify-content-center
@@ -347,7 +347,7 @@
     .container-bg-doble-50.flex-wrap.flex-md-nowrap.mb-5.col-12.col-md-11.col-xl-8.mx-auto.py-3
       img(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 104px; position: relative; z-index: 1;").me-4.mb-4.mb-md-0
       .container-p
-        p.mb-0.fw-bold <em>Riesgo, R = Probabilidad, P. multiplicado por el Impacto, I. = R = P x I</em>
+        p.mb-0.fw-bold <em>Riesgo, R = Probabilidad, P multiplicado por el Impacto, I. R = P x I</em>
 </template>
 
 <script>

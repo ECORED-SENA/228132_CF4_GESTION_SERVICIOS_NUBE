@@ -26,7 +26,7 @@
       .col-12.col-md-6.d-flex.pe-0.pe-md-2.mb-4.mb-md-0
         .container-box-2-4
           img(src="@/assets/curso/temas/tema4/img-2.svg" style="max-width: 163px").mb-5
-          p Consiste en la comunicación por medio del uso de las palabras entre los individuos que se comunican. Se pude tener una comunicación verbal de manera oral o escrita. En la actualidad, es muy común ver este tipo de comunicación a través de los medios digitales.
+          p Consiste en la comunicación por medio del uso de las palabras entre los individuos que se comunican. Se puede tener una comunicación verbal de manera oral o escrita. En la actualidad, es muy común ver este tipo de comunicación a través de los medios digitales.
           img(src="@/assets/curso/temas/tema2/decorador-1.svg" style="max-width: 86px").ms-auto
       .col-12.col-md-6.d-flex.ps-0.ps-md-2
         .container-box-2-4.h-100
@@ -78,7 +78,7 @@
       img(src="@/assets/curso/temas/tema4/img-6.png").col-12.col-md-4
       .col-12.col-md-8
         .col-12.col-xl-6(style="position: relative; z-index: 1; background: linear-gradient(180deg, #039BE5, #027FBC); margin-top: -26px; margin-top: 2rem; margin-bottom: 1.5rem")
-          p.mb-0.p-2.fw-bold(style="font-size: 22px; color: white;") Técnicas de comunicación oral
+          p.mb-0.p-2.fw-bold(style="font-size: 22px; color: white;") Técnicas de comunicación escrita
         p Consisten en la preparación teórica y práctica para el desarrollo de la comunicación escrita sobre un tema en específico, por ejemplo, la redacción de informes o propuestas.
         .d-flex
           img(src="@/assets/curso/temas/tema4/decorador-2.svg" style="max-width: 44px").me-4
@@ -93,23 +93,23 @@
       .col-12.col-md-6.px-0.px-md-4.mb-4
         .d-flex.position-relative.align-items-center(style="box-shadow: 0 3px 6px #00000030; background-color: white; min-height: 77px; border-radius: 10px; padding-left: 5.5rem")
           img(src="@/assets/curso/temas/tema4/icon-2.svg" style="max-width: 87px; position: absolute; left: -1rem")
-          p.mb-0.fw-bold Planificación y organización de contenidos
+          p.mb-0.fw-bold Organización del texto, en orden coherente
       .col-12.col-md-6.px-0.px-md-4.mb-4
         .d-flex.position-relative.align-items-center(style="box-shadow: 0 3px 6px #00000030; background-color: white; min-height: 77px; border-radius: 10px; padding-left: 5.5rem")
           img(src="@/assets/curso/temas/tema4/icon-3.svg" style="max-width: 87px; position: absolute; left: -1rem")
-          p.mb-0.fw-bold Planificación y organización de contenidos
+          p.mb-0.fw-bold Uso de lenguaje adecuado al tema abordado
       .col-12.col-md-6.px-0.px-md-4.mb-4
         .d-flex.position-relative.align-items-center(style="box-shadow: 0 3px 6px #00000030; background-color: white; min-height: 77px; border-radius: 10px; padding-left: 5.5rem")
           img(src="@/assets/curso/temas/tema4/icon-4.svg" style="max-width: 87px; position: absolute; left: -1rem")
-          p.mb-0.fw-bold Planificación y organización de contenidos
+          p.mb-0.fw-bold Correcta argumentación y coherencia con el escrito
       .col-12.col-md-6.px-0.px-md-4.mb-4
         .d-flex.position-relative.align-items-center(style="box-shadow: 0 3px 6px #00000030; background-color: white; min-height: 77px; border-radius: 10px; padding-left: 5.5rem")
           img(src="@/assets/curso/temas/tema4/icon-5.svg" style="max-width: 87px; position: absolute; left: -1rem")
-          p.mb-0.fw-bold Planificación y organización de contenidos
+          p.mb-0.fw-bold Óptima Ortografía y semántica
       .col-12.col-md-6.px-0.px-md-4.mb-4
         .d-flex.position-relative.align-items-center(style="box-shadow: 0 3px 6px #00000030; background-color: white; min-height: 77px; border-radius: 10px; padding-left: 5.5rem")
           img(src="@/assets/curso/temas/tema4/icon-6.svg" style="max-width: 87px; position: absolute; left: -1rem")
-          p.mb-0.fw-bold Planificación y organización de contenidos
+          p.mb-0.fw-bold Uso adecuado de palabras, de acuerdo a su significado
 
     .col-12.col-md-6.col-lg-5.col-xl-5(style="position: relative; z-index: 1; background: linear-gradient(180deg, #039BE5, #027FBC); margin-top: -26px; margin-top: 2rem; margin-bottom: 1.5rem")
           p.mb-0.p-2.fw-bold(style="font-size: 22px; color: white;") Técnicas de manejo de la información
@@ -151,7 +151,7 @@
             p Asegurar el uso apropiado y eficaz de la criptografía para proteger la confidencialidad, la autenticidad y/o la integridad de la información. 
           div(numero="5" titulo="Almacenado y respaldo.")
             p(style="color: #1565C0; font-weight: bold") Responde a la seguridad ofrecida al cliente en cuanto a la seguridad que se tiene de los datos y la información que maneja y guarda el proveedor de servicios en la nube.
-          div(numero="6" titulo="Seguridad; Control de Acceso y Cifrado.")
+          div(numero="6" titulo="Seguridad, Control de Acceso y Cifrado.")
             p(style="color: #1565C0; font-weight: bold") Para controlar el acceso al sistema, debe mantener la seguridad física del entorno informático. Por ejemplo, un sistema cuya sesión está iniciada pero desatendida es vulnerable al acceso no autorizado. Un intruso puede obtener acceso al sistema operativo y a la red. 
             p El entorno y el <em>hardware</em> del equipo deben estar físicamente protegidos contra el acceso no autorizado.
       .col-12.col-md-5.order-1.order-md-2.mb-4
