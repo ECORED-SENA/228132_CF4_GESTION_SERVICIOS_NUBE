@@ -50,11 +50,11 @@
       .tarjeta.color-acento-botones.pt-3.infografia-t3(x="23%" y="20%" numero="")
         .container-infografia-t3
           p.title Alibaba <span>Cloud</span>
-          p Traducción del inglés-<em>Alibaba Cloud</em>-, también conocida como <em>Aliyun</em>, es una empresa de computación en la nube, una subsidiaria de <em>Alibaba Group. Alibaba Cloud</em> proporciona servicios de computación en la nube a empresas en línea y al propio ecosistema de comercio electrónico de <em>Alibaba</em>.
+          p Traducción del inglés -<em>Alibaba Cloud</em>-, también conocida como <em>Aliyun</em>, es una empresa de computación en la nube, una subsidiaria de <em>Alibaba Group. Alibaba Cloud</em> proporciona servicios de computación en la nube a empresas en línea y al propio ecosistema de comercio electrónico de <em>Alibaba</em>.
 
       .tarjeta.color-acento-botones.pt-3.infografia-t3(x="14%" y="47%" numero="")
         .container-infografia-t3
-          p.title Amazone web <span>Services</span>
+          p.title Amazon Web <span>Services</span>
           p <em>Amazon Web Services</em> es una colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por <em>Amazon.com</em>. Es usado en aplicaciones populares como <em>Dropbox, Foursquare, HootSuite</em>.
 
       .tarjeta.color-acento-botones.pt-3.infografia-t3(x="15%" y="64%" numero="")

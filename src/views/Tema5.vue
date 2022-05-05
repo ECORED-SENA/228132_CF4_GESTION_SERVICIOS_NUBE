@@ -38,7 +38,7 @@
         .row.align-items-center
           .col-md-8.mb-4.mb-md-0
             h4 Hacer
-            p En esta fase se deben poner en marcha o ejecución las actividades de gestión y técnicas que se planearon por realizar. En los proyectos de TI, son aquellas actividades de instalación, implementación y/o apropiación de tecnologías hardware y software. También, pueden involucrar la adquisición de nuevos servicios de TI, como los servicios en la nube o aplicaciones de terceros.
+            p En esta fase se deben poner en marcha o ejecución las actividades de gestión y técnicas que se planearon por realizar. En los proyectos de TI, son aquellas actividades de instalación, implementación o apropiación de tecnologías hardware y software. También, pueden involucrar la adquisición de nuevos servicios de TI, como los servicios en la nube o aplicaciones de terceros.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema5/img-7.png' style="max-width: 324px")
@@ -128,7 +128,7 @@
                   td(style="background-color: transparent !important").text-center.w-100 ...
             tr
               th.fw-normal VERIFICAR
-              td(style="border-right: 1px solid #e8e8e8;") Objetivo 3
+              td(style="border-right: 1px solid #e8e8e8;" rowspan="2") Objetivo 3
               td(style="border-right: 1px solid #e8e8e8; padding: 0;")
                 tr.d-flex
                   td(style="background-color: white").text-center.w-100 Actividad 1
@@ -152,7 +152,6 @@
                   td(style="background-color: white").text-center.w-100 ...
             tr
               th.fw-normal ACTUAR
-              td(style="border-right: 1px solid #e8e8e8;") Objetivo 3
               td(style="border-right: 1px solid #e8e8e8; padding: 0;")
                 tr.d-flex
                   td(style="background-color: transparent").w-100 Actividad 1

@@ -105,7 +105,7 @@
       .col-12.col-md-6.px-0.px-md-4.mb-4
         .d-flex.position-relative.align-items-center(style="box-shadow: 0 3px 6px #00000030; background-color: white; min-height: 77px; border-radius: 10px; padding-left: 5.5rem")
           img(src="@/assets/curso/temas/tema4/icon-5.svg" style="max-width: 87px; position: absolute; left: -1rem")
-          p.mb-0.fw-bold Óptima Ortografía y semántica
+          p.mb-0.fw-bold Óptima ortografía y semántica
       .col-12.col-md-6.px-0.px-md-4.mb-4
         .d-flex.position-relative.align-items-center(style="box-shadow: 0 3px 6px #00000030; background-color: white; min-height: 77px; border-radius: 10px; padding-left: 5.5rem")
           img(src="@/assets/curso/temas/tema4/icon-6.svg" style="max-width: 87px; position: absolute; left: -1rem")
@@ -146,12 +146,12 @@
             p Se debería desarrollar e implementar un conjunto adecuado de procedimientos para el etiquetado de la información, de acuerdo con el esquema de clasificación de información adoptado por la organización.
           div(numero="3" titulo="Documentación ordenada")
             p Documentación ordenada según los tipos. Corresponde a los documentos de procesos o procedimiento, manuales, instructivos, formatos, registros, actas.
-          div(numero="4" titulo="Confidencialidad, Integridad y disponibilidad.")
+          div(numero="4" titulo="Confidencialidad, Integridad y disponibilidad")
             p(style="color: #1565C0; font-weight: bold") Corresponde a un objetivo de la norma ISO/IEC 27001:2013. 
             p Asegurar el uso apropiado y eficaz de la criptografía para proteger la confidencialidad, la autenticidad y/o la integridad de la información. 
-          div(numero="5" titulo="Almacenado y respaldo.")
+          div(numero="5" titulo="Almacenado y respaldo")
             p(style="color: #1565C0; font-weight: bold") Responde a la seguridad ofrecida al cliente en cuanto a la seguridad que se tiene de los datos y la información que maneja y guarda el proveedor de servicios en la nube.
-          div(numero="6" titulo="Seguridad, Control de Acceso y Cifrado.")
+          div(numero="6" titulo="Seguridad, Control de Acceso y Cifrado")
             p(style="color: #1565C0; font-weight: bold") Para controlar el acceso al sistema, debe mantener la seguridad física del entorno informático. Por ejemplo, un sistema cuya sesión está iniciada pero desatendida es vulnerable al acceso no autorizado. Un intruso puede obtener acceso al sistema operativo y a la red. 
             p El entorno y el <em>hardware</em> del equipo deben estar físicamente protegidos contra el acceso no autorizado.
       .col-12.col-md-5.order-1.order-md-2.mb-4
