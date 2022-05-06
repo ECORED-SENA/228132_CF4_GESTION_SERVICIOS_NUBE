@@ -217,37 +217,37 @@ export default {
         nombre: 'Pablo Cesar Pardo Ortiz',
         cargo: 'Experto Temático',
         centro:
-          'Regional Cauca, Centro de teleinformática y producción industrial',
+          'Regional Cauca, Centro de Teleinformática y Producción Industrial',
       },
       {
         nombre: 'Hernando José Peña Hidalgo',
         cargo: 'Experto Temático',
         centro:
-          'Regional Cauca, Centro de teleinformática y producción industrial',
+          'Regional Cauca, Centro de Teleinformática y Producción Industrial',
       },
       {
         nombre: 'José Luis Bastidas Pérez',
         cargo: 'Experto Temático',
         centro:
-          'Regional Cauca, Centro de teleinformática y producción industrial',
+          'Regional Cauca, Centro de Teleinformática y Producción Industrial',
       },
       {
         nombre: 'Joaquín Patiño Cerón',
         cargo: 'Experto Temático',
         centro:
-          'Regional Cauca, Centro de teleinformática y producción industrial',
+          'Regional Cauca, Centro de Teleinformática y Producción Industrial',
       },
       {
         nombre: 'Peter Emerson Pinchao Solís',
         cargo: 'Experto Temático',
         centro:
-          'Regional Cauca, Centro de teleinformática y producción industrial',
+          'Regional Cauca, Centro de Teleinformática y Producción Industrial',
       },
       {
         nombre: 'Henry Eduardo Bastidas Paruma',
         cargo: 'Experto Temático',
         centro:
-          'Regional Cauca, Centro de teleinformática y producción industrial',
+          'Regional Cauca, Centro de Teleinformática y Producción Industrial',
       },
       {
         nombre: 'María Inés Machado López',
@@ -263,7 +263,7 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Sandra Patricia Hoyos Sepúlveda',
@@ -276,7 +276,7 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
@@ -287,49 +287,49 @@ export default {
         nombre: 'Antonio Vecino Valero',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Gilberto Junior Rodríguez Rodríguez',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'John Jairo Arciniegas González',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Lina Marcela Pérez Manchego',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Laura Gisselle Murcia Pardo',
         cargo: 'Validación Ilustración',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Jhon Edinson Castañeda Oviedo',
         cargo: 'Desarrollo Front-End',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Locución',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
     ],
     gestoresRepositorio: [
