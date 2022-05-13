@@ -88,7 +88,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'síntesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
