@@ -30,7 +30,7 @@
         .row.align-items-center
           .col-md-8.mb-4.mb-md-0
             h4 Planear
-            p Es la primera fase o etapa donde se aborda el problema a resolver y se plantean los objetivos y alcances para solucionarlo. Asimismo, se designan las actividades para lograr los objetivos. Es esta fase también se deben considerar los recursos necesarios, humanos, económicos, tecnológicos y de información.
+            p Es la primera fase o etapa donde se aborda el problema a resolver y se plantean los objetivos y alcances para solucionarlo. Asimismo, se designan las actividades para lograr los objetivos. En esta fase también se deben considerar los recursos necesarios, humanos, económicos, tecnológicos y de información.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema5/img-6.png' style="max-width: 324px")
@@ -308,7 +308,7 @@
             p.fw-bold.mb-0.text-center(style="font-size: 15px; line-height: 1;") Porcentaje de avance
     .col-12.col-md-4.col-xl-3(style="position: relative; z-index: 1; background: linear-gradient(180deg, #039BE5, #027FBC); margin-top: -26px; margin-top: 2rem; margin-bottom: 1.5rem")
       p.mb-0.p-2.fw-bold(style="font-size: 22px; color: white;") Aspectos legales
-    p <b>En la gestión de proyectos de TI</b>, se deben tener en cuenta los aspectos legales según el contexto, para lo cual se recomienda tener claro una matriz de cumplimiento legal, en donde se pueda identificar dentro de cada proyecto que requisitos legales se deben cumplir, esto con el fin de evitar incumplimientos que puedan generar impactos adversos de tipo económico, operativo o reputacional.
+    p <b>En la gestión de proyectos de TI</b>, se deben tener en cuenta los aspectos legales según el contexto, para lo cual se recomienda tener claro una matriz de cumplimiento legal, en donde se pueda identificar dentro de cada proyecto qué requisitos legales se deben cumplir, esto con el fin de evitar incumplimientos que puedan generar impactos adversos de tipo económico, operativo o reputacional.
 
     .d-flex.flex-wrap
       .col-12.col-md-7.order-2.order-md-1
@@ -321,9 +321,9 @@
           div(numero="2" titulo="Validez legal")
             p La validez legal, refiere al cómo se realiza el procedimiento legal, y se lleva a su realización. 
           div(numero="3" titulo="Contratación de servicios")
-            p En la contratación de servivico, se deben revisar las condiciones y acuerdos de nivel de servicio con proveedores, incluyendo el soporte, de tal manera que se cumplan con los requerimientos específicos del proyecto.
+            p En la contratación de servicio, se deben revisar las condiciones y acuerdos de nivel de servicio con proveedores, incluyendo el soporte, de tal manera que se cumplan con los requerimientos específicos del proyecto.
           div(numero="4" titulo="Protección de datos")
-            p Protección de datos personales, es de vital importancia que los prestadores de servicios cuenten con las regulaciones de protección de datos personales y que el procesamiento y almacenamiento de datos e información se de en países que cuentes con leyes o regulaciones sobre la protección de datos personales.
+            p Protección de datos personales, es de vital importancia que los prestadores de servicios cuenten con las regulaciones de protección de datos personales y que el procesamiento y almacenamiento de datos e información se de en países que cuenten con leyes o regulaciones sobre la protección de datos personales.
       .col-12.col-md-5.order-1.order-md-2.mb-4
         img(src="@/assets/curso/temas/tema5/img-13.png" style="max-width: 472px").mx-auto
 

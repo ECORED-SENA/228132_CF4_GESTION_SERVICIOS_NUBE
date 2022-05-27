@@ -3,11 +3,6 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
-      .titulo-principal__numero(style="background-color: #2EC49F;")
-        span(style="color: white") 6
-      h1 Síntesis
-
     .d-flex.flex-wrap.align-items-center.px-5.mb-5(
       :style="{'background-image': `url(${require('@/assets/curso/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: bottom; margin-left: -3rem; margin-right: -3rem;"
