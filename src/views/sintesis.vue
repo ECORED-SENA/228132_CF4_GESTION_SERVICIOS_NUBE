@@ -19,7 +19,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/img-sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="alt" style="margin-left: -3rem; margin-right: -3rem; min-width: calc(100% + 6rem)")
 
 </template>
 
