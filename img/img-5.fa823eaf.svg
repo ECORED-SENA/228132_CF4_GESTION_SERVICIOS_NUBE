@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="588" height="541.578" viewBox="0 0 588 541.578">
+  <defs>
+    <filter id="Rectángulo_46357" x="300" y="0" width="288" height="176" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.453" y1="-0.589" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#039be5"/>
+      <stop offset="1" stop-color="#027fbc"/>
+    </linearGradient>
+    <filter id="Rectángulo_46363" x="300" y="365.578" width="288" height="176" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_46361" x="0" y="0" width="288" height="176" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_46362" x="0" y="181.289" width="288" height="176" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_46364" x="0" y="365.578" width="288" height="176" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_46365" x="119" y="158.065" width="48" height="41" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_46368" x="420" y="158.065" width="48" height="41" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_46366" x="119" y="339.065" width="48" height="45" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_46367" x="420" y="339.065" width="48" height="45" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_46369" x="270" y="429.065" width="48" height="45" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_161554" data-name="Grupo 161554" transform="translate(-506 -2237.935)">
+    <g id="Grupo_155488" data-name="Grupo 155488">
+      <g transform="matrix(1, 0, 0, 1, 506, 2237.93)" filter="url(#Rectángulo_46357)">
+        <rect id="Rectángulo_46357-2" data-name="Rectángulo 46357" width="270" height="158" rx="20" transform="translate(309 6)" fill="#5793ce"/>
+      </g>
+      <rect id="Rectángulo_46358" data-name="Rectángulo 46358" width="270" height="158" rx="20" transform="translate(815 2425.224)" fill="url(#linear-gradient)"/>
+      <g transform="matrix(1, 0, 0, 1, 506, 2237.93)" filter="url(#Rectángulo_46363)">
+        <rect id="Rectángulo_46363-2" data-name="Rectángulo 46363" width="270" height="158" rx="20" transform="translate(309 371.58)" fill="#5e9bac"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 506, 2237.93)" filter="url(#Rectángulo_46361)">
+        <rect id="Rectángulo_46361-2" data-name="Rectángulo 46361" width="270" height="158" rx="20" transform="translate(9 6)" fill="#2ec49f"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 506, 2237.93)" filter="url(#Rectángulo_46362)">
+        <rect id="Rectángulo_46362-2" data-name="Rectángulo 46362" width="270" height="158" rx="20" transform="translate(9 187.29)" fill="#28b290"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 506, 2237.93)" filter="url(#Rectángulo_46364)">
+        <rect id="Rectángulo_46364-2" data-name="Rectángulo 46364" width="270" height="158" rx="20" transform="translate(9 371.58)" fill="#1d9577"/>
+      </g>
+      <text id="Re-hospedaje_lift_an_shift_" data-name="Re-hospedaje
+(“lift an shift”)" transform="translate(650 2318.935)" fill="#fff" font-size="22" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-69.298" y="0">Re-hospedaje</tspan><tspan x="-71.146" y="23">(“lift an shift”)</tspan></text>
+      <text id="Re-plataforma" transform="translate(650 2515.224)" fill="#fff" font-size="22" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-72.424" y="0">Re-plataforma</tspan></text>
+      <text id="Re-compra" transform="translate(650 2699.513)" fill="#fff" font-size="22" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-55.516" y="0">Re-compra</tspan></text>
+      <text id="Retirada" transform="translate(950 2330.935)" fill="#fff" font-size="22" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-41.835" y="0">Retirada</tspan></text>
+      <text id="Retención" transform="translate(950 2510.224)" fill="#fff" font-size="22" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-50.252" y="0">Retención</tspan></text>
+      <text id="Re-diseño" transform="translate(950 2694.513)" fill="#fff" font-size="22" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-51.326" y="0">Re-diseño</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 506, 2237.93)" filter="url(#Rectángulo_46365)">
+        <rect id="Rectángulo_46365-2" data-name="Rectángulo 46365" width="30" height="23" transform="translate(128 164.07)" fill="#2ec49f"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 506, 2237.93)" filter="url(#Rectángulo_46368)">
+        <rect id="Rectángulo_46368-2" data-name="Rectángulo 46368" width="30" height="23" transform="translate(429 164.07)" fill="#5793ce"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 506, 2237.93)" filter="url(#Rectángulo_46366)">
+        <rect id="Rectángulo_46366-2" data-name="Rectángulo 46366" width="30" height="27" transform="translate(128 345.07)" fill="#62ebca"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 506, 2237.93)" filter="url(#Rectángulo_46367)">
+        <rect id="Rectángulo_46367-2" data-name="Rectángulo 46367" width="30" height="27" transform="translate(429 345.07)" fill="#0285c5"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 506, 2237.93)" filter="url(#Rectángulo_46369)">
+        <rect id="Rectángulo_46369-2" data-name="Rectángulo 46369" width="30" height="27" transform="translate(279 435.07)" fill="#34b596"/>
+      </g>
+    </g>
+  </g>
+</svg>
